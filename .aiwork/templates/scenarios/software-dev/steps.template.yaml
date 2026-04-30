@@ -1,0 +1,301 @@
+# Software Development Workflow - Default Steps Template
+#
+# This is the default step breakdown for software development workflows.
+# Customize based on your specific feature needs.
+
+workflow: "{workflow-id}"
+type: "software-dev"
+created: "{date}"
+
+# Step Status Values:
+#   pending - Not started
+#   in_progress - Currently being worked on
+#   completed - Finished and verified
+#   blocked - Cannot proceed (dependency or issue)
+#   skipped - Intentionally skipped
+
+# AI Tools:
+#   claude - Claude (Code or web)
+#   chatgpt - ChatGPT
+#   cursor - Cursor
+#   copilot - GitHub Copilot
+#   gemini - Google Gemini
+#   other - Other tools
+
+steps:
+  - id: 1
+    title: "Technical Design & Architecture"
+    description: |
+      Design the technical architecture and component structure:
+      - Define component responsibilities
+      - Design API/interface contracts
+      - Design data model and database schema
+      - Identify dependencies and integrations
+      - Document key design decisions
+      - Create architecture diagram (optional)
+
+      Output: Design document with clear technical plan
+    status: pending
+    priority: high
+    estimated_hours: 2
+    assigned_to: null
+    depends_on: []
+    files:
+      - "docs/{feature}-design.md"
+    tags:
+      - design
+      - architecture
+    notes: "Good to do with Claude - excellent at architectural reasoning"
+
+  - id: 2
+    title: "Data Model & Database Setup"
+    description: |
+      Implement database layer:
+      - Create database schema/models
+      - Write migration scripts
+      - Add indexes and constraints
+      - Set up ORM mappings
+      - Test database operations
+
+      Output: Database schema and models ready to use
+    status: pending
+    priority: high
+    estimated_hours: 2
+    assigned_to: null
+    depends_on: [1]
+    files:
+      - "src/models/{entity}.{ext}"
+      - "migrations/{timestamp}_{description}.sql"
+    tags:
+      - database
+      - model
+    notes: "Database migrations should be reversible"
+
+  - id: 3
+    title: "Core Business Logic Implementation"
+    description: |
+      Implement core business logic and services:
+      - Create service layer with main functionality
+      - Implement business rules
+      - Handle data transformations
+      - Error handling
+      - Input validation
+
+      Output: Service layer with business logic
+    status: pending
+    priority: high
+    estimated_hours: 3
+    assigned_to: null
+    depends_on: [2]
+    files:
+      - "src/services/{feature}Service.{ext}"
+    tags:
+      - service
+      - business-logic
+    notes: "Keep business logic separate from API/UI layer"
+
+  - id: 4
+    title: "API Endpoints / UI Components"
+    description: |
+      Implement API layer or UI components:
+
+      For Backend:
+      - Create API endpoints/controllers
+      - Request/response handling
+      - Input validation
+      - Error responses with proper status codes
+
+      For Frontend:
+      - Create UI components
+      - State management
+      - Event handling
+      - User interactions
+
+      Output: API endpoints or UI components complete
+    status: pending
+    priority: high
+    estimated_hours: 3
+    assigned_to: null
+    depends_on: [3]
+    files:
+      - "src/controllers/{feature}Controller.{ext}"
+      - "src/components/{Feature}Component.{ext}"
+    tags:
+      - api
+      - ui
+      - controller
+    notes: "Follow REST conventions for API or component patterns for UI"
+
+  - id: 5
+    title: "Integration & Configuration"
+    description: |
+      Integrate all components and configure:
+      - Wire up dependencies
+      - External service integration
+      - Configuration management
+      - Environment variables
+      - Route registration
+      - Middleware setup
+
+      Output: Fully integrated feature
+    status: pending
+    priority: high
+    estimated_hours: 1.5
+    assigned_to: null
+    depends_on: [4]
+    files:
+      - "src/config/{feature}Config.{ext}"
+      - "src/main.{ext}"
+    tags:
+      - integration
+      - configuration
+    notes: "Test integration end-to-end"
+
+  - id: 6
+    title: "Unit Tests"
+    description: |
+      Write comprehensive unit tests:
+      - Test all service methods
+      - Test edge cases
+      - Test error conditions
+      - Mock external dependencies
+      - Aim for 80%+ code coverage
+
+      Output: Unit test suite passing
+    status: pending
+    priority: high
+    estimated_hours: 2.5
+    assigned_to: null
+    depends_on: [3]
+    files:
+      - "tests/unit/{feature}.test.{ext}"
+    tags:
+      - testing
+      - unit-test
+    notes: "Can be done in parallel with step 4-5"
+
+  - id: 7
+    title: "Integration Tests"
+    description: |
+      Write integration tests:
+      - Test complete user flows end-to-end
+      - Test API endpoints with real requests
+      - Test database interactions
+      - Test success and failure scenarios
+      - Test edge cases and error handling
+
+      Output: Integration test suite passing
+    status: pending
+    priority: high
+    estimated_hours: 2
+    assigned_to: null
+    depends_on: [5]
+    files:
+      - "tests/integration/{feature}.test.{ext}"
+    tags:
+      - testing
+      - integration-test
+    notes: "Critical for ensuring everything works together"
+
+  - id: 8
+    title: "Documentation"
+    description: |
+      Create comprehensive documentation:
+      - Update README if needed
+      - API documentation (endpoints, request/response examples)
+      - Code comments for public interfaces
+      - Usage examples
+      - Configuration guide
+      - Troubleshooting guide
+
+      Output: Complete documentation
+    status: pending
+    priority: medium
+    estimated_hours: 1.5
+    assigned_to: null
+    depends_on: [7]
+    files:
+      - "docs/{feature}-api.md"
+      - "docs/{feature}-guide.md"
+      - "README.md"
+    tags:
+      - documentation
+    notes: "Good task for Claude - excellent at writing"
+
+# Optional Additional Steps (uncomment if needed)
+
+# - id: 9
+#   title: "Performance Optimization"
+#   description: |
+#     Optimize performance:
+#     - Profile code for bottlenecks
+#     - Add caching where appropriate
+#     - Optimize database queries
+#     - Reduce API response times
+#   status: pending
+#   priority: low
+#   estimated_hours: 2
+#   assigned_to: null
+#   depends_on: [7]
+#   tags:
+#     - performance
+#     - optimization
+
+# - id: 10
+#   title: "Security Review"
+#   description: |
+#     Conduct security review:
+#     - Check for SQL injection vulnerabilities
+#     - Validate input sanitization
+#     - Review authentication/authorization
+#     - Check for sensitive data exposure
+#     - Review dependencies for vulnerabilities
+#   status: pending
+#   priority: high
+#   estimated_hours: 1.5
+#   assigned_to: null
+#   depends_on: [7]
+#   tags:
+#     - security
+#     - review
+
+# - id: 11
+#   title: "Code Review & Refactoring"
+#   description: |
+#     Code review and refactoring:
+#     - Review code with different AI or human
+#     - Refactor for clarity and maintainability
+#     - Remove code smells
+#     - Improve naming and structure
+#   status: pending
+#   priority: medium
+#   estimated_hours: 2
+#   assigned_to: null
+#   depends_on: [7]
+#   tags:
+#     - review
+#     - refactoring
+
+# - id: 12
+#   title: "Deployment Preparation"
+#   description: |
+#     Prepare for deployment:
+#     - Create deployment checklist
+#     - Write deployment documentation
+#     - Prepare migration scripts
+#     - Configure production environment
+#     - Set up monitoring/logging
+#   status: pending
+#   priority: medium
+#   estimated_hours: 2
+#   assigned_to: null
+#   depends_on: [8]
+#   tags:
+#     - deployment
+#     - devops
+
+# Summary Statistics
+total_steps: 8
+estimated_total_hours: 18
+high_priority_steps: 7
+medium_priority_steps: 1

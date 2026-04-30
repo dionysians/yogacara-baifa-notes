@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大乘百法明门论 - 交互式探索</title>
+    <style>
+        :root {
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --border-radius: 8px;
+            
+            /* Category Colors */
+            --color-mind: #e3f2fd; /* Blue */
+            --color-mental: #e8f5e9; /* Green */
+            --color-form: #fff3e0; /* Orange */
+            --color-non: #f3e5f5; /* Purple */
+            --color-void: #eceff1; /* Grey */
+            
+            /* Mental Factor Types */
+            --type-universal: #bbdefb;
+            --type-specific: #c8e6c9;
+            --type-good: #a5d6a7;
+            --type-unwholesome: #ef9a9a;
+            --type-indeterminate: #ffe0b2;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            height: 100vh;
+            box-sizing: border-box;
+            gap: 20px;
+        }
+
+        /* Main Layout */
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Grid Layout */
+        .grid-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .category-section {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .category-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .dharma-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 8px;
+        }
+
+        .dharma-card {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 5px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .dharma-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            z-index: 1;
+        }
+
+        .dharma-card.active {
+            ring: 2px solid #2196f3;
+            transform: scale(1.05);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 300px;
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .detail-header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .detail-title {
+            font-size: 1.8rem;
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        .detail-category {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+            background: #eee;
+        }
+
+        .detail-content {
+            flex: 1;
+            overflow-y: auto;
+            line-height: 1.6;
+            color: var(--text-primary);
+        }
+
+        .definition {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 3px solid #ccc;
+        }
+
+        /* Colors */
+        .cat-1 { background-color: var(--color-mind); }
+        .cat-2 { background-color: var(--color-mental); }
+        .cat-3 { background-color: var(--color-form); }
+        .cat-4 { background-color: var(--color-non); }
+        .cat-5 { background-color: var(--color-void); }
+
+        /* Sub-types for Mental Factors */
+        .sub-universal { background-color: var(--type-universal); }
+        .sub-specific { background-color: var(--type-specific); }
+        .sub-good { background-color: var(--type-good); }
+        .sub-annoyance { background-color: var(--type-unwholesome); }
+        .sub-indeterminate { background-color: var(--type-indeterminate); }
+
+        .legend {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            font-size: 0.8rem;
+            flex-wrap: wrap;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>大乘百法明门论 · 交互式图谱</h1>
+        <div class="subtitle">点击任意法查看详情</div>
+    </header>
+
+    <div class="legend">
+        <div class="legend-item"><div class="dot" style="background:var(--color-mind)"></div>心法</div>
+        <div class="legend-item"><div class="dot" style="background:var(--type-universal)"></div>遍行</div>
+        <div class="legend-item"><div class="dot" style="background:var(--type-specific)"></div>别境</div>
+        <div class="legend-item"><div class="dot" style="background:var(--type-good)"></div>善</div>
+        <div class="legend-item"><div class="dot" style="background:var(--type-unwholesome)"></div>烦恼</div>
+        <div class="legend-item"><div class="dot" style="background:var(--color-form)"></div>色法</div>
+        <div class="legend-item"><div class="dot" style="background:var(--color-non)"></div>不相应行</div>
+        <div class="legend-item"><div class="dot" style="background:var(--color-void)"></div>无为法</div>
+    </div>
+
+    <div class="grid-container" id="grid">
+        <!-- Content will be generated by JS -->
+    </div>
+</div>
+
+<div class="sidebar" id="sidebar">
+    <div class="detail-header">
+        <h2 class="detail-title" id="d-title">请选择</h2>
+        <span class="detail-category" id="d-category">...</span>
+    </div>
+    <div class="detail-content">
+        <div class="definition" id="d-def">点击左侧列表中的任意一项以查看详细解释。</div>
+        <div id="d-desc"></div>
+    </div>
+</div>
+
+<script>
+    // Data Structure
+    const data = [
+        {
+            id: "c1",
+            name: "心法",
+            count: 8,
+            colorClass: "cat-1",
+            items: [
+                { name: "眼识", desc: "依眼根了别色境之识。" },
+                { name: "耳识", desc: "依耳根了别声境之识。" },
+                { name: "鼻识", desc: "依鼻根了别香境之识。" },
+                { name: "舌识", desc: "依舌根了别味境之识。" },
+                { name: "身识", desc: "依身根了别触境之识。" },
+                { name: "意识", desc: "依意根了别法境之识，通缘一切。" },
+                { name: "末那识", desc: "恒审思量，执第八识见分为我。" },
+                { name: "阿赖耶识", desc: "含藏一切种子，为万法之本。" }
+            ]
+        },
+        {
+            id: "c2",
+            name: "心所法",
+            count: 51,
+            colorClass: "cat-2",
+            groups: [
+                {
+                    name: "遍行 (5)",
+                    colorClass: "sub-universal",
+                    items: [
+                        { name: "触", desc: "根境识三和合，令心触境。" },
+                        { name: "作意", desc: "警觉应起心种，引心趣境。" },
+                        { name: "受", desc: "领纳顺违俱非境相。" },
+                        { name: "想", desc: "于境取像，施设种种名言。" },
+                        { name: "思", desc: "令心造作，为业之本。" }
+                    ]
+                },
+                {
+                    name: "别境 (5)",
+                    colorClass: "sub-specific",
+                    items: [
+                        { name: "欲", desc: "于所乐境，希望为性。" },
+                        { name: "胜解", desc: "于决定境，印持为性。" },
+                        { name: "念", desc: "于曾习境，令心明记不忘。" },
+                        { name: "定", desc: "于所观境，令心专注不散。" },
+                        { name: "慧", desc: "于所观境，简择为性。" }
+                    ]
+                },
+                {
+                    name: "善 (11)",
+                    colorClass: "sub-good",
+                    items: [
+                        { name: "信", desc: "于实德能，深忍乐欲，心净为性。" },
+                        { name: "精进", desc: "于断恶修善事中，勇悍为性。" },
+                        { name: "惭", desc: "依自法力，崇重贤善，轻拒暴恶。" },
+                        { name: "愧", desc: "依世间力，轻拒暴恶。" },
+                        { name: "无贪", desc: "于有有具，无著为性。" },
+                        { name: "无嗔", desc: "于苦苦具，无恚为性。" },
+                        { name: "无痴", desc: "于诸理事，明解为性。" },
+                        { name: "轻安", desc: "远离粗重，调畅身心。" },
+                        { name: "不放逸", desc: "精进三根，于所断修，防修具行。" },
+                        { name: "行舍", desc: "精进三根，令心平等正直无功用住。" },
+                        { name: "不害", desc: "于诸有情，不为损恼。" }
+                    ]
+                },
+                {
+                    name: "烦恼 (6)",
+                    colorClass: "sub-annoyance",
+                    items: [
+                        { name: "贪", desc: "于有有具，染著为性。" },
+                        { name: "嗔", desc: "于苦苦具，憎恚为性。" },
+                        { name: "痴", desc: "于诸理事，迷暗为性。" },
+                        { name: "慢", desc: "恃己于他，高举为性。" },
+                        { name: "疑", desc: "于诸谛理，犹豫为性。" },
+                        { name: "恶见", desc: "于诸谛理，颠倒推求。" }
+                    ]
+                },
+                {
+                    name: "随烦恼 (20)",
+                    colorClass: "sub-annoyance",
+                    items: [
+                        { name: "忿", desc: "依对现前不饶益境，发愤为性。" },
+                        { name: "恨", desc: "由忿为先，怀恶不舍。" },
+                        { name: "覆", desc: "于自作罪，恐失利誉，隐藏为性。" },
+                        { name: "恼", desc: "忿恨为先，追触暴热。" },
+                        { name: "嫉", desc: "殉自名利，不耐他荣。" },
+                        { name: "悭", desc: "耽著法财，不能惠舍。" },
+                        { name: "诳", desc: "为获利誉，矫现有德。" },
+                        { name: "谄", desc: "为网他故，矫设异仪。" },
+                        { name: "害", desc: "于诸有情，心无悲愍，损恼为性。" },
+                        { name: "憍", desc: "于自盛事，深生染著，醉傲为性。" },
+                        { name: "无惭", desc: "不顾自法，轻拒贤善。" },
+                        { name: "无愧", desc: "不顾世间，崇重暴恶。" },
+                        { name: "掉举", desc: "令心于境，不寂静为性。" },
+                        { name: "昏沉", desc: "令心于境，无堪任为性。" },
+                        { name: "不信", desc: "于实德能，不忍乐欲，心秽为性。" },
+                        { name: "懈怠", desc: "于断恶修善事中，懒惰为性。" },
+                        { name: "放逸", desc: "于染不防，于净不修。" },
+                        { name: "失念", desc: "于诸所缘，不能明记。" },
+                        { name: "散乱", desc: "令心流荡，主宰为性。" },
+                        { name: "不正知", desc: "于所观境，谬解为性。" }
+                    ]
+                },
+                {
+                    name: "不定 (4)",
+                    colorClass: "sub-indeterminate",
+                    items: [
+                        { name: "悔", desc: "恶作，于已作未作，令心追悔。" },
+                        { name: "眠", desc: "令身不自在，心极暗劣。" },
+                        { name: "寻", desc: "寻求，令心匆遽，于意言境粗转。" },
+                        { name: "伺", desc: "伺察，令心匆遽，于意言境细转。" }
+                    ]
+                }
+            ]
+        },
+        {
+            id: "c3",
+            name: "色法",
+            count: 11,
+            colorClass: "cat-3",
+            items: [
+                { name: "眼根", desc: "照瞩色境之净色根。" },
+                { name: "耳根", desc: "能闻声境之净色根。" },
+                { name: "鼻根", desc: "能嗅香境之净色根。" },
+                { name: "舌根", desc: "能尝味境之净色根。" },
+                { name: "身根", desc: "能觉触境之净色根。" },
+                { name: "色境", desc: "眼所行境。" },
+                { name: "声境", desc: "耳所行境。" },
+                { name: "香境", desc: "鼻所行境。" },
+                { name: "味境", desc: "舌所行境。" },
+                { name: "触境", desc: "身所行境。" },
+                { name: "法处所摄色", desc: "意识所缘之色，如极略色、极迥色、受所引色（无表色）等。" }
+            ]
+        },
+        {
+            id: "c4",
+            name: "心不相应行法",
+            count: 24,
+            colorClass: "cat-4",
+            items: [
+                { name: "得", desc: "获成就。" },
+                { name: "命根", desc: "寿量。" },
+                { name: "众同分", desc: "类同。" },
+                { name: "异生性", desc: "凡夫性。" },
+                { name: "无想定", desc: "外道定，灭前六识心心所。" },
+                { name: "灭尽定", desc: "圣者定，灭前六识及第七识染分。" },
+                { name: "无想报", desc: "生无想天之果报。" },
+                { name: "名身", desc: "诠自性之名。" },
+                { name: "句身", desc: "诠差别之句。" },
+                { name: "文身", desc: "能生名句之字。" },
+                { name: "生", desc: "本无今有。" },
+                { name: "住", desc: "相续不断。" },
+                { name: "老", desc: "变异。" },
+                { name: "无常", desc: "灭坏。" },
+                { name: "流转", desc: "因果相续。" },
+                { name: "定异", desc: "善恶因果各别。" },
+                { name: "相应", desc: "因果和合。" },
+                { name: "势速", desc: "生灭迅速。" },
+                { name: "次第", desc: "前后有序。" },
+                { name: "时", desc: "过现未。" },
+                { name: "方", desc: "东西南北。" },
+                { name: "数", desc: "数量。" },
+                { name: "和合性", desc: "众缘聚会。" },
+                { name: "不和合性", desc: "众缘乖离。" }
+            ]
+        },
+        {
+            id: "c5",
+            name: "无为法",
+            count: 6,
+            colorClass: "cat-5",
+            items: [
+                { name: "虚空无为", desc: "离诸障碍，犹如虚空。" },
+                { name: "择灭无为", desc: "由智慧简择力，断障所得之灭理。" },
+                { name: "非择灭无为", desc: "不由择力，本性清净或缘缺不生。" },
+                { name: "不动无为", desc: "第四禅，离苦乐受，动摇寂灭。" },
+                { name: "想受灭无为", desc: "灭尽定，灭想受二心所。" },
+                { name: "真如无为", desc: "诸法实性，真实如常。" }
+            ]
+        }
+    ];
+
+    // Render
+    const grid = document.getElementById('grid');
+    const sidebar = document.getElementById('sidebar');
+    const dTitle = document.getElementById('d-title');
+    const dCategory = document.getElementById('d-category');
+    const dDef = document.getElementById('d-def');
+    const dDesc = document.getElementById('d-desc');
+
+    function render() {
+        data.forEach(category => {
+            const section = document.createElement('div');
+            section.className = 'category-section';
+            
+            const title = document.createElement('div');
+            title.className = 'category-title';
+            title.textContent = `${category.name} (${category.count})`;
+            section.appendChild(title);
+
+            const dharmaGrid = document.createElement('div');
+            dharmaGrid.className = 'dharma-grid';
+
+            // Helper to create card
+            const createCard = (item, colorClass, catName) => {
+                const card = document.createElement('div');
+                card.className = `dharma-card ${colorClass}`;
+                card.textContent = item.name;
+                card.onclick = () => showDetail(item, colorClass, catName);
+                return card;
+            };
+
+            if (category.items) {
+                category.items.forEach(item => {
+                    dharmaGrid.appendChild(createCard(item, category.colorClass, category.name));
+                });
+            } else if (category.groups) {
+                category.groups.forEach(group => {
+                    group.items.forEach(item => {
+                        dharmaGrid.appendChild(createCard(item, group.colorClass, `${category.name} - ${group.name}`));
+                    });
+                });
+            }
+
+            section.appendChild(dharmaGrid);
+            grid.appendChild(section);
+        });
+    }
+
+    function showDetail(item, colorClass, catName) {
+        // Remove active class from all
+        document.querySelectorAll('.dharma-card').forEach(c => c.classList.remove('active'));
+        // Add active to clicked (simple way, could be optimized)
+        event.target.classList.add('active');
+
+        dTitle.textContent = item.name;
+        dCategory.textContent = catName;
+        dCategory.className = `detail-category ${colorClass}`;
+        dDef.textContent = item.desc;
+        dDesc.innerHTML = `<p>（此处可扩展更多关于${item.name}的详细解释、经论出处等）</p>`;
+    }
+
+    render();
+
+</script>
+
+</body>
+</html>

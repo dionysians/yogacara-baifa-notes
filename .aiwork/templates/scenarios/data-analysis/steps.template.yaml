@@ -1,0 +1,227 @@
+# Data Analysis Workflow - Default Steps Template
+#
+# This is the default step breakdown for data analysis workflows.
+# Customize based on your specific analysis needs.
+
+workflow: "{workflow-id}"
+type: "data-analysis"
+created: "{date}"
+
+# Step Status Values:
+#   pending - Not started
+#   in_progress - Currently being worked on
+#   completed - Finished and verified
+#   blocked - Cannot proceed (dependency or issue)
+#   skipped - Intentionally skipped
+
+# AI Tools:
+#   claude - Claude (Code or web)
+#   chatgpt - ChatGPT (especially Code Interpreter)
+#   cursor - Cursor
+#   copilot - GitHub Copilot
+#   gemini - Google Gemini
+#   other - Other tools
+
+steps:
+  - id: 1
+    title: "Data Loading & Initial Exploration"
+    description: |
+      Load all data sources and perform initial exploration:
+      - Load datasets (CSV/SQL/JSON/etc.)
+      - Check data shapes (rows, columns)
+      - Examine data types
+      - Check for missing values
+      - Generate basic statistical summary
+      - Sample and preview data
+
+      Output: Exploration report documenting data characteristics
+    status: pending
+    priority: high
+    estimated_hours: 1.5
+    assigned_to: null
+    depends_on: []
+    files:
+      - "outputs/notebooks/01_exploration.ipynb"
+      - "outputs/reports/exploration_report.md"
+    tags:
+      - data-loading
+      - exploration
+    notes: "Best done with ChatGPT Code Interpreter or Claude artifacts for immediate execution"
+
+  - id: 2
+    title: "Data Cleaning & Validation"
+    description: |
+      Clean and validate the data:
+      - Handle missing values (drop/impute based on context)
+      - Remove duplicate records
+      - Fix data type issues
+      - Validate data ranges and formats
+      - Handle outliers (investigate, keep/remove)
+      - Document all cleaning decisions
+
+      Output: Clean dataset(s) ready for analysis
+    status: pending
+    priority: high
+    estimated_hours: 2
+    assigned_to: null
+    depends_on: [1]
+    files:
+      - "outputs/notebooks/02_cleaning.ipynb"
+      - "outputs/data/clean_data.csv"
+    tags:
+      - data-cleaning
+      - validation
+    notes: "Document % of data affected by each cleaning step"
+
+  - id: 3
+    title: "Exploratory Data Analysis (EDA)"
+    description: |
+      Perform comprehensive exploratory analysis:
+      - Distribution analysis for key variables
+      - Correlation analysis
+      - Identify patterns and trends
+      - Segment analysis
+      - Anomaly detection
+      - Generate visualizations (histograms, scatter plots, box plots)
+
+      Output: EDA insights document with visualizations
+    status: pending
+    priority: high
+    estimated_hours: 2.5
+    assigned_to: null
+    depends_on: [2]
+    files:
+      - "outputs/notebooks/03_eda.ipynb"
+      - "outputs/visualizations/distributions.png"
+      - "outputs/visualizations/correlations.png"
+      - "outputs/reports/eda_insights.md"
+    tags:
+      - eda
+      - visualization
+      - insights
+    notes: "May reveal need for additional cleaning - iterate if needed"
+
+  - id: 4
+    title: "Feature Engineering (if needed)"
+    description: |
+      Create derived features and transformations:
+      - Create calculated fields
+      - Encode categorical variables
+      - Normalize/scale numerical features
+      - Create aggregations or rolling windows
+      - Generate cohort/segment labels
+
+      Output: Enhanced dataset with engineered features
+
+      NOTE: Skip this step if not needed for your analysis
+    status: pending
+    priority: medium
+    estimated_hours: 1.5
+    assigned_to: null
+    depends_on: [2, 3]
+    files:
+      - "outputs/notebooks/04_feature_engineering.ipynb"
+      - "outputs/data/processed_data.csv"
+    tags:
+      - feature-engineering
+      - transformation
+    notes: "Optional step - skip if analysis doesn't require derived features"
+
+  - id: 5
+    title: "Core Analysis"
+    description: |
+      Perform the main analysis to answer research questions:
+      - Calculate key metrics
+      - Statistical tests
+      - Segmentation analysis
+      - Cohort analysis
+      - Trend analysis
+      - Hypothesis testing
+
+      Output: Analysis results with statistical significance
+    status: pending
+    priority: high
+    estimated_hours: 2.5
+    assigned_to: null
+    depends_on: [3]
+    files:
+      - "outputs/notebooks/05_analysis.ipynb"
+      - "outputs/reports/analysis_results.md"
+      - "outputs/data/analysis_outputs.csv"
+    tags:
+      - analysis
+      - statistics
+      - metrics
+    notes: "Core step - answers the main research questions"
+
+  - id: 6
+    title: "Visualization & Final Reporting"
+    description: |
+      Create final visualizations and compile report:
+      - Generate publication-quality charts
+      - Create summary visualizations
+      - Write narrative insights
+      - Compile recommendations
+      - Package deliverables for stakeholders
+
+      Output: Final report with visualizations and actionable insights
+    status: pending
+    priority: high
+    estimated_hours: 2
+    assigned_to: null
+    depends_on: [5]
+    files:
+      - "outputs/notebooks/06_reporting.ipynb"
+      - "outputs/visualizations/final_charts.png"
+      - "outputs/reports/final_report.md"
+      - "outputs/reports/final_report.pdf"
+    tags:
+      - reporting
+      - visualization
+      - communication
+    notes: "Tailor output format to audience (technical vs. executive)"
+
+# Optional Additional Steps (uncomment if needed)
+
+# - id: 7
+#   title: "Statistical Modeling (optional)"
+#   description: |
+#     Build predictive or explanatory models:
+#     - Feature selection
+#     - Model training
+#     - Model evaluation
+#     - Interpretation
+#   status: pending
+#   priority: medium
+#   estimated_hours: 3
+#   assigned_to: null
+#   depends_on: [4, 5]
+#   files:
+#     - "outputs/notebooks/07_modeling.ipynb"
+#     - "outputs/models/model.pkl"
+#   tags:
+#     - modeling
+#     - machine-learning
+
+# - id: 8
+#   title: "Validation & Peer Review"
+#   description: |
+#     Validate analysis with different AI or human review:
+#     - Code review
+#     - Statistical method validation
+#     - Reproduce key findings
+#     - Check assumptions
+#   status: pending
+#   priority: medium
+#   estimated_hours: 1
+#   assigned_to: null
+#   depends_on: [6]
+#   tags:
+#     - review
+#     - validation
+
+# Summary Statistics
+total_steps: 6
+estimated_total_hours: 12
+high_priority_steps: 5
+medium_priority_steps: 1

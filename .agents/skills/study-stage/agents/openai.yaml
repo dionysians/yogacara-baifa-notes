@@ -1,0 +1,4 @@
+interface:
+  display_name: "study-stage"
+  short_description: "Workflow skill for entering a study stage"
+  default_prompt: "Run $study-stage for this repository."

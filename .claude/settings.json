@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:buddhistchannel.tv)",
+      "WebFetch(domain:www.theravadin.org)",
+      "WebFetch(domain:gandhanra.art)",
+      "WebFetch(domain:www.pharosjot.com)",
+      "WebFetch(domain:philarchive.org)",
+      "WebFetch(domain:buddhism.lib.ntu.edu.tw)",
+      "WebFetch(domain:www.wybuddhist.com)",
+      "Bash(brew install:*)",
+      "Bash(pdftotext /Users/tianluo/.claude/projects/-Users-tianluo-projects--------/2696be4f-dbb9-4add-acb0-2f4dde724f28/tool-results/webfetch-1775933124406-nnv1th.pdf -)",
+      "WebFetch(domain:www.quora.com)",
+      "WebFetch(domain:thedailyenlightenment.com)"
+    ]
+  }
+}

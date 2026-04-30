@@ -1,0 +1,4 @@
+interface:
+  display_name: "study-concept"
+  short_description: "Workflow skill for one 百法 concept note"
+  default_prompt: "Run $study-concept for this repository."

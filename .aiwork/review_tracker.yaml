@@ -1,0 +1,87 @@
+# 复习追踪系统
+# 基于艾宾浩斯遗忘曲线的间隔复习计划
+
+reviews:
+  - date: "2025-11-16"
+    content: "深入讨论了菩提心的概念"
+    log_file: "notes/logs/2025-11-16_study_log.md"
+    key_concepts:
+      - "资粮"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2025-11-17"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2025-11-19"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2025-11-23"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2025-12-01"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2025-12-16"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-04-25"
+    content: "善心所第一位 信 — 完整学习（义理 + 4 个待深入问题 + 实修架构）"
+    log_file: "notes/logs/2026-04-25_study_log.md"
+    key_concepts:
+      - "信"
+      - "心净为性"
+      - "深忍乐欲"
+      - "信实信德信能"
+      - "水清珠观"
+      - "信根信力"
+      - "信解合一"
+      - "染疑善疑"
+      - "五根五力"
+      - "信为能入智为能度"
+      - "熏习机制"
+      - "智识贪/法执散乱"
+      - "AI partition"
+      - "信能三层锚点"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-04-26"
+        interval_days: 1
+        completed: true
+        completion_date: "2026-04-26"
+        mastery_level: 4
+      - review_number: 2
+        scheduled_date: "2026-04-28"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-02"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-10"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-05-25"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+# 统计信息
+statistics:
+  total_reviews_scheduled: 10
+  total_reviews_completed: 1
+  last_updated: "2026-04-26"

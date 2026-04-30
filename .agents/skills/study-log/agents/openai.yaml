@@ -1,0 +1,4 @@
+interface:
+  display_name: "study-log"
+  short_description: "Workflow skill for one study-session log"
+  default_prompt: "Run $study-log for this repository."

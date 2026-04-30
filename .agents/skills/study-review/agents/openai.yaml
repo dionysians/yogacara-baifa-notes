@@ -1,0 +1,4 @@
+interface:
+  display_name: "study-review"
+  short_description: "Workflow skill for spaced-review tracking"
+  default_prompt: "Run $study-review for this repository."

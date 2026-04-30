@@ -1,0 +1,110 @@
+session_id: "study-百法明门论-20251103"
+type: "learning"
+name: "大乘百法明门论学习"
+created: "2025-11-03"
+last_updated: "2026-04-25"
+status: "active"
+
+# 项目描述
+description: "系统性学习《大乘百法明门论》这部佛学著作"
+
+# 学习目标
+learning_objectives:
+  - "理解百法的分类体系（心法、心所法、色法、心不相应行法、无为法）"
+  - "掌握大乘唯识学的基本概念"
+  - "建立对佛教心理学的系统认识"
+  - "培养对佛法的深入理解和实践能力"
+
+# 学习资源
+resources:
+  primary_text: "《大乘百法明门论》世亲菩萨造，玄奘法师译"
+  commentaries: []
+  references: []
+
+# 进度跟踪
+progress:
+  started_date: "2025-11-03"
+  target_completion: null
+  current_phase: "阶段三：心所法（51法）— 善心所组（信学完）"
+  current_stage_start_date: "2026-03-05"
+  completion_percentage: 22.0
+  last_updated: "2026-04-25"
+
+# 学习方法
+study_methods:
+  - "文本阅读与注释"
+  - "概念整理与思维导图"
+  - "笔记记录与心得体会"
+  - "定期复习与总结"
+
+# 学习记录
+study_log:
+  total_sessions: 6
+  total_hours: 33
+  last_session_date: "2026-04-25"
+  last_session_content: "善心所第一位 信 — 完整学习与笔记整理（含义理深化 + 4 个待深入问题 + 实修架构搭建）"
+
+# 相关文档
+documents:
+  study_plan: ".aiwork/STUDY_PLAN.md"
+  notes_directory: "notes/"
+  summaries_directory: "summaries/"
+
+# 标签
+tags:
+  - "佛学"
+  - "唯识学"
+  - "百法"
+  - "世亲菩萨"
+  - "大乘佛教"
+
+# 阶段历史
+stage_history:
+  - stage_number: 1
+    stage_name: "准备与概览"
+    start_date: "2025-11-03"
+    end_date: "2026-03-03"
+    status: "completed"
+    progress: 100
+    last_update: "2026-03-03"
+    update_note: "阶段一完成。涵盖大乘佛教背景知识、唯识学历史发展、六度波罗蜜、主要经典与论典。核心洞见：悲智双运的必然性、三轮体空、我执与众生一体两面"
+  - stage_number: 2
+    stage_name: "心法（8法）"
+    start_date: "2026-03-03"
+    end_date: "2026-04-14"
+    status: "completed"
+    progress: 100
+    last_update: "2026-04-14"
+    update_note: "阶段二完成。八识全部学习完毕（前五识+意识+末那识+阿赖耶识），所有待深入问题100%解答。产出：7个单法笔记（全部⭐⭐理解）、5个深度问答文档（识与脑科学、主观能动性与精进、AI与意识、唯识与物理学、三量三境概念详解）、1个八识止息参考表、1个AI公众号版文章。核心洞见：大脑是意识的浮尘根/末那识是净色根、信号降低让识自身浮现（戒定慧统一框架）、种子因果与物理学的结构同构、概念由功能定义无自性"
+  - stage_number: 3
+    stage_name: "心所法（51法）"
+    start_date: "2026-03-05"
+    end_date: null
+    status: "in_progress"
+    progress: 0
+    last_update: "2026-03-05"
+    update_note: ""
+  - stage_number: 4
+    stage_name: "色法（11法）"
+    start_date: "2026-03-05"
+    end_date: null
+    status: "in_progress"
+    progress: 0
+    last_update: "2026-03-05"
+    update_note: ""
+  - stage_number: 5
+    stage_name: "心不相应行法（24法）"
+    start_date: "2026-03-05"
+    end_date: null
+    status: "in_progress"
+    progress: 0
+    last_update: "2026-03-05"
+    update_note: ""
+  - stage_number: 6
+    stage_name: "无为法（6法）"
+    start_date: "2026-03-05"
+    end_date: null
+    status: "in_progress"
+    progress: 0
+    last_update: "2026-03-05"
+    update_note: ""

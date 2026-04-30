@@ -1,0 +1,4 @@
+interface:
+  display_name: "study-progress"
+  short_description: "Workflow skill for progress dashboard and updates"
+  default_prompt: "Run $study-progress for this repository."
