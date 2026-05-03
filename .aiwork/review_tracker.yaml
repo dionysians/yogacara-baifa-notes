@@ -3,6 +3,9 @@
 
 reviews:
   - date: "2025-11-16"
+    status: "archived"
+    archived_date: "2026-05-03"
+    archived_reason: "所有 5 轮复习均超期 5+ 个月，已脱出艾宾浩斯有效窗口；内容已被后续阶段自然吸收"
     content: "深入讨论了菩提心的概念"
     log_file: "notes/logs/2025-11-16_study_log.md"
     key_concepts:
@@ -80,8 +83,332 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-01-03"
+    status: "archived"
+    archived_date: "2026-05-03"
+    archived_reason: "所有 5 轮复习均超期 3+ 个月，已脱出艾宾浩斯有效窗口；阶段一概览性内容，已被后续阶段二/三学习中实际使用所自然巩固"
+    content: "阶段一 1.3 主要经典和论典 — 三藏分类、般若 / 唯识 / 华严 / 法华系经典体系、唯识六经十一论"
+    log_file: "notes/logs/2026-01-03_study_log.md"
+    key_concepts:
+      - "三藏"
+      - "般若系"
+      - "唯识系"
+      - "六经十一论"
+      - "解深密经"
+      - "心经"
+      - "金刚经"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-01-04"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-01-06"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-01-10"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-01-18"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-02-02"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-04-26"
+    content: "善心所第二位 精进 — 勇悍体性深挖 + 加行/任运 + 起步 gap 根因诊断 + 熏习机制元原理"
+    log_file: "notes/logs/2026-04-26_study_log.md"
+    key_concepts:
+      - "精进"
+      - "勇悍双时点"
+      - "加行精进"
+      - "任运精进"
+      - "九住心六力四作意"
+      - "频率优先于时长"
+      - "胜解深度"
+      - "激活休眠种子假说"
+      - "熏习机制元原理"
+      - "起步 gap 根因"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-04-27"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-04-29"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-03"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-11"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-05-26"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-04-27"
+    content: "精进深化 — 三品精进（披甲 / 摄善法 / 饶益有情）+ 长劫不退机制 + 跨世佛缘工程专题 + 现量跃迁记录"
+    log_file: "notes/logs/2026-04-27_study_log.md"
+    key_concepts:
+      - "披甲精进"
+      - "摄善法精进"
+      - "饶益有情精进"
+      - "种子等流果"
+      - "不退≠不忘"
+      - "跨世佛缘工程"
+      - "八难对治"
+      - "信能种子层锚点"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-04-28"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-04-30"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-04"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-12"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-05-27"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-04-29"
+    content: "善心所第三、四位 惭愧 — 二阶结构 + 空性双面 + 事件触发 vs 常态 + 间接修机制（假说 10 / 11 / 12 / 13）"
+    log_file: "notes/logs/2026-04-29_study_log.md"
+    key_concepts:
+      - "惭"
+      - "愧"
+      - "动力源 vs 触发感应器"
+      - "事件触发性"
+      - "二阶结构方便层/究竟层"
+      - "本来不应如此"
+      - "敬共业秩序"
+      - "递归惭愧"
+      - "空性双面投射"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-04-30"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-02"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-06"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-14"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-05-29"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-04-30"
+    content: "假说审视日 — 假说 8 闭合 / 假说 11 升级（方便层瓦解）/ 假说 12 升级（末那二维辐射 non-imposition）"
+    log_file: "notes/logs/2026-04-30_study_log.md"
+    key_concepts:
+      - "经典力度=心所配置质量"
+      - "如救头燃 vs 无功用住协调"
+      - "暂止力"
+      - "方便层瓦解"
+      - "末那二维辐射"
+      - "non-imposition"
+      - "harm principle 收敛核"
+      - "三层驱动"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-01"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-03"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-07"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-15"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-05-30"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-05-01"
+    content: "善心所第五位 无贪 主线一 — 经典定位 + 无著/作善张力 + 修行粮资 vs 贪 + 修行 path 自我认识 reveal（闻思+禅定双支撑）"
+    log_file: "notes/logs/2026-05-01_study_log.md"
+    key_concepts:
+      - "无贪"
+      - "无著为性"
+      - "作善为业"
+      - "有/有具双层所缘"
+      - "无贪是作善的纯化器"
+      - "修行粮资 vs 贪"
+      - "闻思+禅定双支撑 path"
+      - "深熏频疏"
+      - "干慧风险"
+      - "想通≠shift"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-02"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-04"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-08"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-16"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-05-31"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-05-02"
+    content: "无贪当代实操核 + 假说 14 元假说提出（方便层瓦解的普遍性）+ 无贪.md 整合沉淀"
+    log_file: "notes/logs/2026-05-02_study_log.md"
+    key_concepts:
+      - "无贪当代实操核"
+      - "AI 探索 partition"
+      - "假说 14 方便层瓦解元假说"
+      - "工业化精准攻击贪"
+      - "作善是无著的现行机会"
+      - "微细贪扫描"
+      - "三种现行净配比"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-03"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-05"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-09"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-17"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-06-01"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-05-02"
+    content: "善心所第六位 无嗔起步 — 经典定位 + 三善根三角对偶（假说 16）+ 四无量心体性归属 + 真无相 actor-缘-受者三层 + 嗔系多层 stable base + 假说 14 嗔场升级 + 修行者三条 path 正面 evidence + 双盘训练三轨"
+    log_file: "notes/logs/2026-05-02_study_log_无嗔起步.md"
+    key_concepts:
+      - "无嗔"
+      - "苦/苦具所缘"
+      - "三善根三角对偶（假说 16）"
+      - "四无量心体性归属"
+      - "真无相四无量"
+      - "亲子场三种现行净配比"
+      - "嗔系多层 stable base"
+      - "Layer 4 imposing 看穿"
+      - "嗔上四独立 trigger"
+      - "假说 14 嗔场升级（反向激励+工业化奖励嗔）"
+      - "忍辱体性=无嗔"
+      - "安受苦忍 stable base"
+      - "双盘训练 B reframe"
+      - "修行者三条 path 正面 evidence"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-03"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-05"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-09"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-05-17"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-06-01"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 10
+  total_reviews_scheduled: 50
   total_reviews_completed: 1
-  last_updated: "2026-04-26"
+  last_updated: "2026-05-03"
