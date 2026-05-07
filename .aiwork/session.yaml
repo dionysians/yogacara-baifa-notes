@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-05-03"
+last_updated: "2026-05-07"
 status: "active"
 
 # 项目描述
@@ -25,10 +25,10 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 善心所组（三善根之三 · 无痴学完）"
+  current_phase: "阶段三：心所法（51法）— 善心所组（轻安学完 + 三善根整体认知整合完成）"
   current_stage_start_date: "2026-03-05"
-  completion_percentage: 30.0
-  last_updated: "2026-05-03"
+  completion_percentage: 32.0
+  last_updated: "2026-05-07"
 
 # 学习方法
 study_methods:
@@ -39,10 +39,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 7
-  total_hours: 36.5
-  last_session_date: "2026-05-03"
-  last_session_content: "善心所三善根之三 无痴 — 经典定位 + 假说 15 v1 retire → v2 二阶结构升级 + Path C 双线 framing + 跨世种子 evidence #4 + 三个修行者深度 reveal（State D / 童年善知识 transmission / ε 框架修正）"
+  total_sessions: 8
+  total_hours: 39.5
+  last_session_date: "2026-05-07"
+  last_session_content: "善心所·轻安完整学习 + 三善根整体认知整合 — 假说 15 v3 升级（二阶+二维 anchor 结构）+ evidence #5 立稳（5 evidence 跨四面整体重启 pattern）+ 干慧风险 #1 精确机制 + 修行重心 calibration（闻思 baseline / 禅定主推进）+ 三善根 A+B+C 本体论 + 三层分工 + B 协同立场 + 假说 14 跨三善根 pattern + 痴场补完 + 权威崩塌修正"
 
 # 相关文档
 documents:
