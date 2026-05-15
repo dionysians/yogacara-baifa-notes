@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-05-07"
+last_updated: "2026-05-14"
 status: "active"
 
 # 项目描述
@@ -25,10 +25,10 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 善心所组（轻安学完 + 三善根整体认知整合完成）"
+  current_phase: "阶段三：心所法（51法）— 善心所组（不放逸学完，下一为行舍）"
   current_stage_start_date: "2026-03-05"
-  completion_percentage: 32.0
-  last_updated: "2026-05-07"
+  completion_percentage: 34.0
+  last_updated: "2026-05-14"
 
 # 学习方法
 study_methods:
@@ -39,10 +39,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 8
-  total_hours: 39.5
-  last_session_date: "2026-05-07"
-  last_session_content: "善心所·轻安完整学习 + 三善根整体认知整合 — 假说 15 v3 升级（二阶+二维 anchor 结构）+ evidence #5 立稳（5 evidence 跨四面整体重启 pattern）+ 干慧风险 #1 精确机制 + 修行重心 calibration（闻思 baseline / 禅定主推进）+ 三善根 A+B+C 本体论 + 三层分工 + B 协同立场 + 假说 14 跨三善根 pattern + 痴场补完 + 权威崩塌修正"
+  total_sessions: 9
+  total_hours: 44.0
+  last_session_date: "2026-05-12"  # 跨 5/12-5/14 三日学习弧
+  last_session_content: "善心所·不放逸完整学习 — v3 framework 五层 manifest 预演完整化（反应面 + anchor 面 + 守护面 + 任运面 + 利他面）+ 守护面 / 任运面的 dimension 独立判定（开车比喻：不放逸 = 始终在开 / 行舍 = 自如驾驶）+ anchor 作 v3 通用判别基准 derivation + 行舍 ↔ 假说 17 严格对应预演（行舍体性 candidate = sign/target 不错位）+ 失念作为不放逸缺位精确机制 + 主动性 framing 修正（root level = 念力稳态化）+ 三层精进协同（披甲 / 加行 / 不放逸）+ trigger design 落地（家人睡下 → 立刻入座 → 最高优先级 → 必须完成再做别的）+ 5/13 + 5/14 trigger 二次现量验证 + 模式自主扩展 + 5 markers 全 healthy + 修行者主动应用假说 17 元方法论"
 
 # 相关文档
 documents:
