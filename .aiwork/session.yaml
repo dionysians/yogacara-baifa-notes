@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-05-14"
+last_updated: "2026-05-16"
 status: "active"
 
 # 项目描述
@@ -25,10 +25,11 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 善心所组（不放逸学完，下一为行舍）"
+  current_phase: "阶段三：心所法（51法）— 善心所组（信 / 精进 / 惭 / 愧 / 无贪 / 无嗔 / 无痴 / 轻安 / 不放逸 / 行舍 ✅ 10/11；待不害 + 善心所 framework 整合 + 进入烦恼组）"
   current_stage_start_date: "2026-03-05"
-  completion_percentage: 34.0
-  last_updated: "2026-05-14"
+  stage_3_completion: 55
+  completion_percentage: 34.25
+  last_updated: "2026-05-16"
 
 # 学习方法
 study_methods:
@@ -39,10 +40,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 9
-  total_hours: 44.0
-  last_session_date: "2026-05-12"  # 跨 5/12-5/14 三日学习弧
-  last_session_content: "善心所·不放逸完整学习 — v3 framework 五层 manifest 预演完整化（反应面 + anchor 面 + 守护面 + 任运面 + 利他面）+ 守护面 / 任运面的 dimension 独立判定（开车比喻：不放逸 = 始终在开 / 行舍 = 自如驾驶）+ anchor 作 v3 通用判别基准 derivation + 行舍 ↔ 假说 17 严格对应预演（行舍体性 candidate = sign/target 不错位）+ 失念作为不放逸缺位精确机制 + 主动性 framing 修正（root level = 念力稳态化）+ 三层精进协同（披甲 / 加行 / 不放逸）+ trigger design 落地（家人睡下 → 立刻入座 → 最高优先级 → 必须完成再做别的）+ 5/13 + 5/14 trigger 二次现量验证 + 模式自主扩展 + 5 markers 全 healthy + 修行者主动应用假说 17 元方法论"
+  total_sessions: 10
+  total_hours: 47.0
+  last_session_date: "2026-05-16"
+  last_session_content: "善心所·行舍正式学习 — 四主线 + §十三 cleanup + 假说 17 闭合。主线 1 法理：经典《成唯识论》'平等正直无功用住，初中后位辨舍差别'explicit ground → 三相 axis 结构（平等 amplitude / 正直 directional / 无功用住 effort 后位）+ functional substrate ordering（平等 ⊥ 正直 + 平等 → 正直 单向条件依赖）+ 三相对治掉举三层 manifest 严格分工 + 不放逸→行舍 transition mechanism candidate。主线 2：受舍/行舍/无量舍 三轴 disambiguation（蕴 / 方向 / 三性）+ '守所缘' = 受舍 vs 行舍 partition 现量入口。主线 3：5/16 现量精确诊断 = '正直一相 partial manifest'严格 framing（非行舍整体 manifest 早期信号）+ 行舍者相 hijack 防御。主线 4：教学操作核-06-行舍.md 新建 + 行舍.md 完整重构（§一-§十三）+ 事件层 cross-context 扩展（淡定从容 anchor 分判 + parallel manifest 而非 substrate + 修行者多场域 evidence dual mapping）。假说 17（sign vs target 元方法论）5/16 闭合并入正直一相特例。元学习：(1) AI 误把'信德冷'over-generalize 为'对人冷'被 catch → attribution scoped boundary 原则；(2) CLAUDE.md 是 source of truth，AGENTS.md 修行者独立管理。"
 
 # 相关文档
 documents:
