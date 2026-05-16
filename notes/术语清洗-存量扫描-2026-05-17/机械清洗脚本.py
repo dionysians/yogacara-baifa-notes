@@ -193,6 +193,65 @@ REPLACEMENTS = [
     (r"\bmin\b", "分钟"),
     # bug 修:reveal 裸用(date+reveal 已在最顶部特殊规则处理)
     (r"\breveal\b", "揭示"),
+
+    # ===== v5 增补(2026-05-17,步骤 3 第二波) =====
+    # 整体短语(优先匹配)
+    (r"\bsource of truth\b", "权威来源"),
+    (r"\bdynamic balance\b", "动态平衡"),
+    (r"\bover-generalize\b", "过度泛化"),
+    (r"\bcross-context\b", "跨语境"),
+    (r"\bcross-ref\b", "交叉引用"),
+    (r"\blong-term\b", "长期"),
+    # 单词
+    (r"\bdisambiguation\b", "消歧"),
+    (r"\battribution\b", "归因"),
+    (r"\bReconciliation\b", "调和"),
+    (r"\borthogonal\b", "正交"),
+    (r"\beffortless\b", "任运"),
+    (r"\bsubsume\b", "涵摄"),
+    (r"\bawareness\b", "觉察"),
+    (r"\btransition\b", "过渡"),
+    (r"\bdashboard\b", "总表"),
+    (r"\balignment\b", "对齐"),
+    (r"\bexposure\b", "暴露"),
+    (r"\bprotocol\b", "规程"),
+    (r"\bsediment\b", "沉淀"),
+    (r"\btemporal\b", "时间性"),
+    (r"\bunstated\b", "未明示"),
+    (r"\brenamed\b", "重命名"),
+    (r"\breferences\b", "引用"),
+    (r"\breference\b", "引用"),
+    (r"\bsequence\b", "序列"),
+    (r"\bfeedback\b", "反馈"),
+    (r"\bpassive\b", "被动"),
+    (r"\bderived\b", "已推出"),
+    (r"\bscoped\b", "限定"),
+    (r"\btransfer\b", "迁移"),
+    (r"\bsimulate\b", "模拟"),
+    (r"\bboundary\b", "边界"),
+    (r"\barchive\b", "归档"),
+    (r"\bimplicit\b", "隐式"),
+    (r"\bentities\b", "实体"),
+    (r"\bdocumented\b", "已记录"),
+    (r"\bsediment\b", "沉淀"),
+    (r"\bdisposition\b", "倾向"),
+    (r"\bparallel\b", "并列"),
+    (r"\bentity\b", "实体"),
+    (r"\bnested\b", "嵌套"),
+    (r"\bsignal\b", "信号"),
+    (r"\bmemory\b", "记忆"),
+    (r"\bmirror\b", "镜像"),
+    (r"\bcontext\b", "语境"),
+    (r"\bcommit\b", "落实"),
+    (r"\bstrict\b", "严格"),
+    (r"\bcatch\b", "抓住"),
+    (r"\bentry\b", "条目"),
+    (r"\btrait\b", "特质"),
+    (r"\bscale\b", "尺度"),
+    (r"\bplan\b", "计划"),
+    (r"\blink\b", "链接"),
+    (r"\bforce\b", "强制"),
+    (r"\bmove\b", "动作"),
 ]
 
 # ============================================================
@@ -224,9 +283,10 @@ def find_protected_ranges(text: str) -> list[tuple[int, int]]:
 
 
 def apply_replacements(text: str, replacements) -> str:
-    """对单段文本应用所有替换。"""
+    """对单段文本应用所有替换。
+    replacements 中的 pattern 应是已 compile 的 re.Pattern(含 IGNORECASE flag)。"""
     for pat, repl in replacements:
-        text = re.sub(pat, repl, text)
+        text = pat.sub(repl, text)
     return text
 
 
@@ -234,19 +294,22 @@ def clean_file(text: str) -> tuple[str, int]:
     """处理整篇文本,返回 (新文本, 替换次数估算)。"""
     protected = find_protected_ranges(text)
 
+    # 预编译模式(带 IGNORECASE)
+    compiled = [(re.compile(p, re.IGNORECASE), r) for p, r in REPLACEMENTS]
+
     parts = []
     pos = 0
     original_eng_count = len(re.findall(r"[a-zA-Z]{3,}", text))
 
     for start, end in protected:
         editable = text[pos:start]
-        editable = apply_replacements(editable, [(re.compile(p), r) for p, r in REPLACEMENTS])
+        editable = apply_replacements(editable, compiled)
         parts.append(editable)
         parts.append(text[start:end])
         pos = end
 
     tail = text[pos:]
-    tail = apply_replacements(tail, [(re.compile(p), r) for p, r in REPLACEMENTS])
+    tail = apply_replacements(tail, compiled)
     parts.append(tail)
 
     new_text = "".join(parts)
