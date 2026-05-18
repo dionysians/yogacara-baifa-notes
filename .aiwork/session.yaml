@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-05-16"
+last_updated: "2026-05-18"
 status: "active"
 
 # 项目描述
@@ -25,11 +25,11 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 善心所组（信 / 精进 / 惭 / 愧 / 无贪 / 无嗔 / 无痴 / 轻安 / 不放逸 / 行舍 ✅ 10/11；待不害 + 善心所 framework 整合 + 进入烦恼组）"
+  current_phase: "阶段三：心所法（51法）— **善心所组完整闭合 11/11 ✅**（信 / 精进 / 惭 / 愧 / 无贪 / 无嗔 / 无痴 / 轻安 / 不放逸 / 行舍 / 不害）；下一步：进入烦恼心所小组（根本烦恼 6 法）"
   current_stage_start_date: "2026-03-05"
-  stage_3_completion: 55
-  completion_percentage: 34.25
-  last_updated: "2026-05-16"
+  stage_3_completion: 60
+  completion_percentage: 36.5
+  last_updated: "2026-05-18"
 
 # 学习方法
 study_methods:
@@ -40,10 +40,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 10
-  total_hours: 47.0
-  last_session_date: "2026-05-16"
-  last_session_content: "善心所·行舍正式学习 — 四主线 + §十三 cleanup + 假说 17 闭合。主线 1 法理：经典《成唯识论》'平等正直无功用住，初中后位辨舍差别'explicit ground → 三相 axis 结构（平等 amplitude / 正直 directional / 无功用住 effort 后位）+ functional substrate ordering（平等 ⊥ 正直 + 平等 → 正直 单向条件依赖）+ 三相对治掉举三层 manifest 严格分工 + 不放逸→行舍 transition mechanism candidate。主线 2：受舍/行舍/无量舍 三轴 disambiguation（蕴 / 方向 / 三性）+ '守所缘' = 受舍 vs 行舍 partition 现量入口。主线 3：5/16 现量精确诊断 = '正直一相 partial manifest'严格 framing（非行舍整体 manifest 早期信号）+ 行舍者相 hijack 防御。主线 4：教学操作核-06-行舍.md 新建 + 行舍.md 完整重构（§一-§十三）+ 事件层 cross-context 扩展（淡定从容 anchor 分判 + parallel manifest 而非 substrate + 修行者多场域 evidence dual mapping）。假说 17（sign vs target 元方法论）5/16 闭合并入正直一相特例。元学习：(1) AI 误把'信德冷'over-generalize 为'对人冷'被 catch → attribution scoped boundary 原则；(2) CLAUDE.md 是 source of truth，AGENTS.md 修行者独立管理。"
+  total_sessions: 11
+  total_hours: 51.0
+  last_session_date: "2026-05-18"
+  last_session_content: "善心所·不害正式学习 — 7 主线 + 11 善心所完整闭合 + 阶段评估生成。主线 1-2：不害概念地基（§一-§四，与无嗔精确分工 + §四 修行学定位三层论证：大乘根本方向事件层显现 / 唯一专门面向利他面的心所）+ 假说 15 v3 → v3+ 闭合（基础二维：反应面 + 锚面三轴 / 三复合维度：守护面 + 任运面 + 利他面 / 11 善心所完整覆盖无缺漏 / 三冲突点全解决）。主线 3：不害究竟层两层结构（§五 8 子节）— 慈悲根本必然方向（修行者准备阶段洞察：在'我'对立面修必然到达 / 大乘路径整体逻辑：'我'消失时'众生'也消失 → 无缘大悲）+ 不强加运作护持机制 + 修行者本体论根据洞察：'佛性内在结构必然孕育让有情解脱'。主线 4：协同回填（惭/愧 × 不害）按交叉引用整合 — 惭 × 不害亲子场协同（同一空性见在断恶/利他面双显现）+ 愧 × 不害共业场协同（大乘利他面双驱动：愧刹车 + 不害引擎，共享末那外向轴对治原则）。主线 5：§九 疑问与探索 — 4 疑问全闭合（惩罚 + 方便善巧同源 / 四种心所配置组合表 / 凡夫位最大陷阱：伪方便善巧 = 嗔合理化 / ahiṃsā 同名不同体 5 维对照 / 悲与不害交叉引用）。主线 6-7：收尾（§六/§八）+ 阶段评估生成（reports/心所法-善心所-学习阶段个人评估.md，6 条质变信号 + 9 节点画像演化轨迹）+ CLAUDE.md 用户画像精简（456 → 405 行，演化过程沉淀到 reports）+ 跨阶段回填清单 4 条迁入 archive。元学习：(1) /study-log 命令本应跳过却被正式执行 — 学习者要求'不要写新 log'仅指本阶段尾段不再分散，但完整阶段闭合后的总结性 log 仍有独立价值；(2) 'reports vs CLAUDE.md vs study-log' 三层架构定型：CLAUDE.md = 当前状态主动调取 / reports = 阶段评估可溯源 / study-log = 单日记录细颗粒。"
 
 # 相关文档
 documents:

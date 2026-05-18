@@ -407,8 +407,53 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-05-18"
+    content: "善心所第十一位·不害 — 完整学习 + 善心所组完整闭合(11/11) + 假说 15 v3+ 闭合 + 阶段评估生成"
+    log_file: "notes/logs/2026-05-18_study_log.md"
+    key_concepts:
+      - "不害"
+      - "ahiṃsā"
+      - "悲愍为业"
+      - "饶益有情面 vs 自调伏面"
+      - "利他面（假说 15 v3+ 复合维度）"
+      - "慈悲根本必然方向"
+      - "不强加运作护持"
+      - "佛性内在结构孕育解脱"
+      - "真方便善巧 vs 伪方便善巧"
+      - "瑜伽菩萨地 / 大悲商主本生"
+      - "无缘大悲"
+      - "末那外向轴对治"
+      - "看破→熏种→常态 三步循环"
+    archived_date: null
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-19"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-21"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-05-25"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-02"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-06-17"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 50
+  total_reviews_scheduled: 55
   total_reviews_completed: 1
-  last_updated: "2026-05-03"
+  last_updated: "2026-05-18"
