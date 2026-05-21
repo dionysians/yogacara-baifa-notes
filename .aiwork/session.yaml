@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-05-18"
+last_updated: "2026-05-21"
 status: "active"
 
 # 项目描述
@@ -25,11 +25,11 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— **善心所组完整闭合 11/11 ✅**（信 / 精进 / 惭 / 愧 / 无贪 / 无嗔 / 无痴 / 轻安 / 不放逸 / 行舍 / 不害）；下一步：进入烦恼心所小组（根本烦恼 6 法）"
+  current_phase: "阶段三：心所法（51法）— 善心所组完整闭合 11/11 ✅（信 / 精进 / 惭 / 愧 / 无贪 / 无嗔 / 无痴 / 轻安 / 不放逸 / 行舍 / 不害）；**烦恼心所小组起步中** — 已建《烦恼心所学习方法论》，根本烦恼 6 法（贪 / 嗔 / 痴 / 慢 / 疑 / 恶见）未正式开始"
   current_stage_start_date: "2026-03-05"
   stage_3_completion: 60
-  completion_percentage: 36.5
-  last_updated: "2026-05-18"
+  completion_percentage: 36.0
+  last_updated: "2026-05-21"
 
 # 学习方法
 study_methods:
