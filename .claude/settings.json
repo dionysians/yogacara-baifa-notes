@@ -11,7 +11,12 @@
       "Bash(brew install:*)",
       "Bash(pdftotext /Users/tianluo/.claude/projects/-Users-tianluo-projects--------/2696be4f-dbb9-4add-acb0-2f4dde724f28/tool-results/webfetch-1775933124406-nnv1th.pdf -)",
       "WebFetch(domain:www.quora.com)",
-      "WebFetch(domain:thedailyenlightenment.com)"
+      "WebFetch(domain:thedailyenlightenment.com)",
+      "Bash(python3 .claude/skills/concept-card/query.py lookup-batch 所依 俱起 等无间 增上 因缘)",
+      "Bash(python3 .claude/skills/concept-card/query.py lookup-batch 四缘 四种缘 所缘缘 等无间缘 增上缘 因缘种子 现行 种子)",
+      "Bash(python3 /Users/tianluo/projects/大乘百法明门论/.claude/skills/concept-card/query.py lookup-batch 所依 俱起 等无间 增上 因缘 等无间缘 增上缘 因缘缘 四缘)",
+      "Bash(python3 /Users/tianluo/projects/大乘百法明门论/.claude/skills/concept-card/query.py lookup-batch 相应 所缘 所缘缘 体性 业用 种子 现行)",
+      "Bash(python3 /Users/tianluo/projects/大乘百法明门论/.claude/skills/concept-card/query.py lookup-batch 萨迦耶见 烦恼障 所知障 无想定 灭尽定 见道 修道 慧解脱 法执 二空 真如 转依 染慧 四谛 十二缘起)"
     ]
   }
 }

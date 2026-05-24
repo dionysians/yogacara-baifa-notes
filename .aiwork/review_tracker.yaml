@@ -452,8 +452,90 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-05-21"
+    content: "烦恼心所阶段开篇 — 烦恼心所学习方法论撰写 + 三毒整体骨架建立 + §七 处理机制三层迭代设计 + CLAUDE.md '当前学习阶段(闻思)'节建立 + 学习流程 #9 升级（2026-05-25 补记）"
+    log_file: "notes/logs/2026-05-21_study_log.md"
+    key_concepts:
+      - "烦恼心所学习方法论"
+      - "熏习卫生学"
+      - "三毒整体骨架(主梁/结构梁/对治推论)"
+      - "痴≠我相≠恶见(关键辨别)"
+      - "跨阶段vs阶段内待办分层"
+      - "CLAUDE.md会话级触发机制(硬保证vs软保证)"
+      - "方法论先+整组骨架+单法精修(子阶段执行节奏)"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-22"
+        interval_days: 1
+        completed: false
+        completion_date: null
+        note: "补记时该日期已过"
+      - review_number: 2
+        scheduled_date: "2026-05-24"
+        interval_days: 3
+        completed: false
+        completion_date: null
+        note: "补记时该日期已过"
+      - review_number: 3
+        scheduled_date: "2026-05-28"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-05"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-06-20"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-05-25"
+    content: "三毒精修第一法 痴 — 完整精修（轴一广狭 + 轴二现行三分 + A 杂染所依机制 + B 现量识别 + 三层路径节奏分配）+ 痴.md 完整重写整合 + 概念卡补齐 + CLAUDE.md 同步 + 位次混淆元-学习校正"
+    log_file: "notes/logs/2026-05-25_study_log.md"
+    key_concepts:
+      - "痴(无明)"
+      - "现行三分(相应/恒行不共/独行不共)"
+      - "二障(烦恼障/所知障)"
+      - "痴通二障"
+      - "俱起+增上复合机制"
+      - "照见痴=无痴现行"
+      - "三层对治路径(结构性并行非阶段性台阶)"
+      - "止观双运(无想vs灭尽经典锚)"
+      - "四缘/俱起/所依五术语精确化"
+      - "位次差异(凡夫位vs圣者位双支)"
+      - "学术诚实三原则强化"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-26"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-28"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-01"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-09"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-06-24"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 55
+  total_reviews_scheduled: 65
   total_reviews_completed: 1
-  last_updated: "2026-05-18"
+  last_updated: "2026-05-25"
