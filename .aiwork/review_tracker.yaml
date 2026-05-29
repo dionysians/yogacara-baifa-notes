@@ -534,8 +534,107 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-05-27"
+    content: "三毒精修第二法 贪 — 完整精修（经典定位 + 染著机制 + 有有具与扩张性 + 遍三界与断除次第 + 现行形态 + 现量识别 + 十二缘起卡位）+ 贪.md 完整重写 + 概念卡 8 新 1 增强"
+    log_file: "notes/logs/2026-05-27_study_log.md"
+    key_concepts:
+      - "贪(染著为性)"
+      - "染+著两步(渗透+黏住)"
+      - "四颠倒(常乐净我)"
+      - "不正作意"
+      - "受≠贪(触→受→贪转折)"
+      - "染著扩张性(爱屋及乌)"
+      - "有具=惑业资具"
+      - "因果叙事+扩张性双层"
+      - "十二缘起爱→取"
+      - "取四类(欲取/见取/戒禁取/我语取)"
+      - "贪遍三界(欲贪/色贪/无色贪)"
+      - "五下分结/五上分结"
+      - "分别起vs俱生(现行机制差异)"
+      - "末那我爱(四烦恼逻辑依赖)"
+      - "识别≠对治"
+      - "五层现量识别光谱"
+      - "十二缘起双节点(无明+爱)"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-28"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-05-30"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-03"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-11"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-06-26"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-05-29"
+    content: "三毒精修第三法 嗔 — 完整精修（憎恚机制 + 嗔唯欲界 + 嗔不通末那 + 三毒纵深识别 + 苦苦具精确展开 + 分别起vs俱生 + 现量识别光谱 + 贪→嗔间接对治通道）+ 跨阶段回填闭合（三善根整体模式烦恼方反向验证）+ 嗔.md 完整重写 + 修行者画像第三层补完 + 五果概念卡精化"
+    log_file: "notes/logs/2026-05-29_study_log.md"
+    key_concepts:
+      - "嗔(憎恚为性)"
+      - "憎+恚两步(推拒+自损)"
+      - "自损性(嗔独有体性特征)"
+      - "不安隐性(经典业用层独有标记)"
+      - "嗔唯欲界(所缘+心所配置双重机制)"
+      - "嗔不通末那(末那四烦恼无嗔)"
+      - "末那所缘性质决定不对称(摄受vs推拒烦恼)"
+      - "苦×苦具3×3矩阵"
+      - "苦vs苦作为嗔的所缘(两层精确区分)"
+      - "三毒纵深识别(嗔→贪→痴一次照见)"
+      - "嗔的四层光谱(非五层)"
+      - "觉察即冷却窗口(嗔独有特性)"
+      - "分别起嗔vs俱生嗔(嗔俱生比贪浅)"
+      - "嗔三果断尽(分别起+俱生全断)"
+      - "伏≠断(凡夫位定中伏嗔≠真断)"
+      - "贪→嗔间接对治通道(十二缘起逆向运用)"
+      - "童年操作核四步循环(发现-分析-解决-放弃)"
+      - "不强加原则内外双向运作"
+      - "染对治=染慧的结构同构"
+      - "末那双轴框架烦恼方反向印证"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-05-30"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-01"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-05"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-13"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-06-28"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 65
+  total_reviews_scheduled: 75
   total_reviews_completed: 1
-  last_updated: "2026-05-25"
+  last_updated: "2026-05-29"
