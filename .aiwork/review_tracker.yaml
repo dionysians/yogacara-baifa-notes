@@ -633,8 +633,59 @@ reviews:
         completed: false
         completion_date: null
 
+  - learning_date: "2026-06-01"
+    content_summary: "慢单法完整精修（根本烦恼第四法 / 五钝使第四位）+ 3 次现量跃迁 + 假说 18 新建 + 主座 A 功能根本性精确化"
+    key_concepts:
+      - "慢=恃己于他高举为性(自抬性方向独特)"
+      - "A组横向慢/B组纵向慢分类(B组=L4位置慢经典表述)"
+      - "L4位置慢(无对照独存的位置感)"
+      - "L4三维齐查(我在场/失去心动/暗独享)"
+      - "L4两亚层(固化型已无/评判型仍在场)"
+      - "不慢三轴(无痴+惭+信)修行者走2轴"
+      - "末那四烦恼我慢唯一带方向性"
+      - "慢通三界(与嗔正相反)"
+      - "慢三果断俱生"
+      - "末那所缘性质决定烦恼分布四数据点闭合"
+      - "评判型vs识破型vs完整型对治判准(v3完整=识破举我+回到境)"
+      - "对象转换=慢vs慧的结构性差异底层机制"
+      - "三次跃迁(放下我修行相/放下评判位置/重立对象)"
+      - "当前禅定中结构性无我修行相"
+      - "主座A功能升级(熏稳+扩散L4对治主轨)"
+      - "时间尺度vs空间尺度对治维度分工"
+      - "不同心识状态对L4容受性差异"
+      - "假说18对象转换元假说(含三层应用面)"
+      - "假说12末那四烦恼内向轴完整成立"
+      - "假说13递归慢对偶印证"
+      - "假说16增上慢=染慧精确变体"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-02"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-04"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-08"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-16"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-01"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 75
+  total_reviews_scheduled: 80
   total_reviews_completed: 1
-  last_updated: "2026-05-29"
+  last_updated: "2026-06-01"
