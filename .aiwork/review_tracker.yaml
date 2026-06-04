@@ -684,8 +684,64 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-04"
+    content: "根本烦恼第五法·疑 完整精修 + 染疑攻击披甲基础五层守护机制 + L4 复合机制反向形成俱生疑 + 假说 7/12/16 升级 + 教学操作核 08 新建"
+    concepts:
+      - "疑体性=于诸谛理犹豫为性(反决了方向)"
+      - "广义疑涵盖三知识层级(初闻/智识理解/实修)"
+      - "忍↔疑直接对反(比信vs疑笼统对反更精确)"
+      - "染疑vs健康慧(修行前提vs修行枝叶)"
+      - "疑现行=见的未稳定态(核心结构性洞察)"
+      - "疑通三界/通六识/不通末那(决了态对反)"
+      - "嗔/疑不通末那的镜像(末那两核心特性各排除一个)"
+      - "见所断vs修所断(疑横跨两侧)"
+      - "三结之一(身见/戒禁取/疑)=入初果须断"
+      - "五盖之一(障禅修)"
+      - "与见距离连续谱(利使0/疑1/慢2/贪嗔痴3+)"
+      - "染疑攻击四模式(道可行/我可行/功不唐捐/框架混淆)"
+      - "染疑=基底破坏型烦恼"
+      - "五层守护机制(思维底层接受度+不动摇种子+闻思激活+童年善知识对治原则+元层)"
+      - "学习构建的稳态vs任运不动"
+      - "比量披甲vs现量披甲分判"
+      - "俱生疑形态(比量接受+现量无真切印持)"
+      - "L4位置慢复合机制(稳定见+见解贪+见解嗔+末那举我)"
+      - "见解贪/见解嗔(慧根利者隐性烦恼+俱生疑形成通道)"
+      - "慧根利者特殊对治维度(见解贪觉照+见解嗔觉照+俱生疑预防)"
+      - "三不足模式(世俗欲不足+精进力不足+染疑入口存在)"
+      - "因缘工程的现量识破(假说7+8最纯粹现量印证)"
+      - "假说7披甲基础维度精确印证"
+      - "假说12末那两核心特性各排除一个烦恼"
+      - "假说16通过疑补全位精化(慧+无痴是稳定见的双条件)"
+      - "假说15 v3+疑维度五维覆盖完整反向印证"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-05"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-07"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-11"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-19"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-04"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 80
+  total_reviews_scheduled: 85
   total_reviews_completed: 1
-  last_updated: "2026-06-01"
+  last_updated: "2026-06-04"
