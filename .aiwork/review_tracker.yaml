@@ -740,8 +740,62 @@ reviews:
         completed: false
         completion_date: null
 
+  - session_date: "2026-06-06"
+    content_summary: "恶见单法完整精修（根本烦恼第六法 / 五利使总名 / 子阶段 1 收官）— 6 主线 + 5 项核心新揭示 + 假说网络全面收口"
+    log_file: "notes/logs/2026-06-06_study_log.md"
+    concepts_count: 22
+    key_concepts:
+      - "染慧(恶见体性 = 慧+痴+已稳定化)"
+      - "染慧精巧化命题(慧根利者双面性)"
+      - "五元决了结构(蒙蔽/朝向/未决/偏决/已决+自抬)"
+      - "五见先后依赖结构(Layer 0-3)"
+      - "三结依赖链最少必要切点(主体+方法+信解)"
+      - "法贪(对法尘的俱生贪+末那附着)"
+      - "法嗔(法贪被损+末那附着+微细谤圣贤=见解嗔第一阶段)"
+      - "见解嗔二阶现行结构(法染色层+情感性嗔层)"
+      - "法染色层主战场(慧根利者俱生层主战场)"
+      - "触受爱憎链统一开关命题"
+      - "末那附着作用(摄受特性的精确机制层)"
+      - "末那四烦恼六法配置封顶(我痴/我见/我慢/我爱)"
+      - "主座A三重功能统一(L4扩散+比量披甲下沉+两大战场共同扩散)"
+      - "善心所究竟层运作序列封顶(7项)"
+      - "持戒究竟层理解"
+      - "修法多元化承认"
+      - "缘起相续现量印持"
+      - "俱生疑分布不均"
+      - "路径风险#4机制层闭合(法贪伪装为善法欲)"
+      - "见所断vs修所断分判"
+      - "看破≠见道精确分判"
+      - "贪嗔现行处俱生身见现行"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-07"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-09"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-13"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-21"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-06"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 85
+  total_reviews_scheduled: 90
   total_reviews_completed: 1
-  last_updated: "2026-06-04"
+  last_updated: "2026-06-06"
