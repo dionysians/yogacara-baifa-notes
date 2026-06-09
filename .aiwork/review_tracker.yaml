@@ -794,8 +794,59 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-09"
+    status: "active"
+    content: "子阶段 2 · 随烦恼 20 法启动期开篇 — 骨架文档《随烦恼整体认知》七节完整创建 + §六 5 主线现量预演 + 多文档回填"
+    log_file: "notes/logs/2026-06-09_study_log.md"
+    key_concepts:
+      - "随烦恼总安立（随他起+唯染心二义）"
+      - "分位假立 vs 等流别立"
+      - "五象限归属（A 对称对偶 / B 染分对偶 / C 功能性反对 / D 复合分位 / E 分位假立）"
+      - "基底配置 10 ↔ 10 严格对偶"
+      - "俱一分摄（经典立场三）"
+      - "散乱别有自体（护法立场）"
+      - "放逸非别有体（D 复合分位）"
+      - "染心三阶段（染慧 / 不正知 / 恶见）"
+      - "触受爱憎链两场域结构性分离"
+      - "场域 A 主座 A 覆盖 / 场域 B 不放逸触发点"
+      - "见自见众双线"
+      - "信德冷质地 ≠ 不乐分量"
+      - "不忍 / 不乐 / 不欲 / 心秽（不信四要素）"
+      - "染心 ↔ 善心三阶段严格对称（候选元命题）"
+      - "正念全场域元基底通道（候选元命题）"
+      - "大随八基底化与念力稳态成反比（候选假说）"
+      - "凡夫染心生起次第"
+      - "法染色层主战场事件层入口（追究理论封闭 / 过度挖掘）"
+      - "假说 18 憍维度现量印证"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-10"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-12"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-16"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-24"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-09"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 90
+  total_reviews_scheduled: 95
   total_reviews_completed: 1
-  last_updated: "2026-06-06"
+  last_updated: "2026-06-09"
