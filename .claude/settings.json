@@ -20,7 +20,8 @@
       "Bash(python3 .claude/skills/concept-card/query.py lookup-batch 窥基 《瑜伽师地论》 慧解脱 三果 四果 萨迦耶见 五钝使 五利使 见道 应无所住而生其心 平等性智 慧 增上慢 七慢)",
       "Bash(grep -A 5 \"^---$\" /Users/tianluo/projects/大乘百法明门论/resources/cards/我执.md)",
       "WebFetch(domain:cbetaonline.dila.edu.tw)",
-      "WebFetch(domain:www.quanxue.cn)"
+      "WebFetch(domain:www.quanxue.cn)",
+      "Bash(grep -n '^#\\\\{1,4\\\\} ' CLAUDE.md)"
     ]
   }
 }
