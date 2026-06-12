@@ -1085,8 +1085,58 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-13"
+    status: "active"
+    content: "随烦恼单法精修第六法·悭（小随首入贪系·缘自所有）— 三段链无反转 + 悭嫉镜像（守内/憎外）+ 财法不对称 + 施的边界框架（响应式+遮缘三条+称力线+判心相不判施否）+ 见自'悭≠我所执'归位（拒绝模型的膨胀提问）+ 四界面严格不现行 + 见众生常驻动机最强复证 + 五家所共 + 破我所一把钥匙 + 双重假候选第三复证"
+    log_file: "notes/logs/2026-06-13_study_log.md"
+    key_concepts:
+      - "悭=贪一分'秘吝'分位（耽著法财/秘吝为性/鄙畜为业·E分位假立·无内部诤议）"
+      - "五悭（住处/家/施/称誉/法·《大毗婆沙论》）"
+      - "三段链无反转（耽著→秘吝→鄙畜·根在贪相也在贪·贪系最'诚实'的随烦恼）"
+      - "悭嫉镜像（守内/憎外——同一「我所」边界守卫两面：嫉守相对高度/悭守绝对存量）"
+      - "财悭法悭不对称（财零和/法非零和→法悭守位置稀缺性=借排名脚手架·悭嫉交界）"
+      - "施的响应式时机（《瑜伽师地论》'见来求者'·缘不现前不施=无境非悭）"
+      - "遮缘三条（真实伤害被施者/施对象不由己支配/真实伤害自己·称力线）"
+      - "称力线精度：'触发烦恼不算自伤'（那正是要磨的悭）"
+      - "真遮缘事后心安/悭借壳事后理由反复自我重申"
+      - "判心相不判施否（施境下心紧=悭·先认紧后简择·与持戒究竟层严格同构）"
+      - "回避施境=悭的隐蔽形态"
+      - "三福田（报恩/功德/贫穷·地理非时机判定器）"
+      - "'悭≠我所执'归位（五悭+'施界面'判准：四项属悭/三项归己通道·复杂性属末那不属悭）"
+      - "四界面严格不现行（天生跑遮缘单·'对双方都好'简择=愧共业秩序质地占住施界面）"
+      - "凡夫悭=保全概率最高的常驻动机结构必然（守住几乎必然立即奏效·常驻动机候选最强复证）"
+      - "五家所共（王贼火水恶子·'保全'=延迟结算·被所有物反向占有）"
+      - "「我的」无自性（所有权=共业约定产物·物上不带'我的'标签·双重假候选第三复证）"
+      - "嫉/悭/慢/憍同收'破我所·实我中心'一把钥匙（嫉拆排名/悭拆所有权）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-14"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-16"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-20"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-28"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-13"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 120
+  total_reviews_scheduled: 125
   total_reviews_completed: 1
-  last_updated: "2026-06-12"
+  last_updated: "2026-06-13"
