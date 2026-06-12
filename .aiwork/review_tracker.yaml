@@ -845,8 +845,200 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-11"
+    status: "active"
+    content: "随烦恼单法精修首法·忿（新'单法学习循环'流程首用）+ 学习流程调整"
+    log_file: "notes/logs/2026-06-11_study_log.md"
+    key_concepts:
+      - "单法学习循环（闻 → 思两拍）"
+      - "忿判准（现前境 + 愤发；强度 / 时长不入判准）"
+      - "体 / 用之分（心所愤发 vs 身表业'多发非必发'）"
+      - "嗔系槽位唯一（对现前境直接发作）"
+      - "忿恨恼一股瞋换相位（发出 / 收结不舍 / 追触暴热狠戾）"
+      - "恨独有'不舍' / 恼独有'狠戾'"
+      - "忿恨恼现前违境链（忿为起点；嫉 / 害另起）"
+      - "忿 = 层 3a 显发点（截断主轨在上游）"
+      - "截断点上移跃迁（愧上游任运起 → 忿不现行）"
+      - "愧惭时序双点（愧上游截扩张 / 惭下游截累计）"
+      - "感应器先起（看穿预载闻思 + 惭愧先起 + 慧分辨随后）"
+      - "嗔系链双重断裂"
+      - "层 5 自责式嗔结清"
+      - "触受激活场域 A + 法染色层降级"
+      - "触发点 2 最深层 = 嗔系最大问题（我所强加'应该如何'）"
+      - "利他善巧轴通道 2 早期活化（悲悯理解开始）"
+      - "见自见众同一跃迁两面"
+      - "指导各归其位（CLAUDE.md 维护元原则）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-12"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-14"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-18"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-26"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-11"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-06-11"
+    status: "active"
+    content: "随烦恼单法精修第二法·恨（同日第二场）— 分位机制'现行↔基态' + 见自归因改道/递归下沉 + 见众生'恨底层是爱' + 利他善巧轴缺口三层归位"
+    log_file: "notes/logs/2026-06-11_study_log.md"
+    key_concepts:
+      - "恨=瞋怀怨储存分位（由忿为先/怀恶不舍/恒热恼对内自苦）"
+      - "忿→恨相变（发出态有衰减/储存态无衰减须主动舍）"
+      - "静态储存=微观脉冲串（反复重新结怨续命）"
+      - "'不舍'双层=现行↔基态种子线（主动不放=现行/无法放下=熏成基态）"
+      - "种子↔现行标准结构（当下双向+历时熏成，独立无先后不矛盾）"
+      - "两种恨所缘二分（贪粘着对象/我执认定，恨体仍瞋一分）"
+      - "归因方向从源头改道（双锚去行为者抽掉恨的可怨对象所缘）"
+      - "递归惭愧=纵向下沉、终点无常无我（删'横向递归'误框/够用就停）"
+      - "'觉得人坏'=恨恼产物（双锚改道故很少觉得谁坏）"
+      - "恨底层是爱（凡夫抱怨实抱所爱不舍/由爱生嗔）"
+      - "见自见众无常无我合流（修行者出口/凡夫缺口）"
+      - "利他善巧轴缺口在心侧非境侧（理解烦恼内在机制）"
+      - "烦恼少者反向利他缺口（补法走认知路径非情感共情）"
+      - "见众生线=利他善巧轴百法内直接修学路径（缺口二分）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-12"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-14"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-18"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-26"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-11"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-06-12"
+    status: "active"
+    content: "随烦恼单法精修第三法·覆（首个跨出嗔系的小随）— 痴分三层 + 所缘三层前提栈 + 三段接力对治 + 见自分别俱生二分 + 见众生三段全断/常驻动机/亲子样本见解嗔合流"
+    log_file: "notes/logs/2026-06-12_study_log.md"
+    key_concepts:
+      - "覆=贪痴一分'覆藏自罪'分位（E分位假立·首个跨出嗔系的小随）"
+      - "安慧'唯痴一分'vs护法'贪痴一分'诤议（本论从护法）"
+      - "覆/诳/谄=减/加/曲（藏已有之罪/诈现未有之德/曲顺网他）"
+      - "痴分三层（后果之痴/罪·利誉实执/负罪我执）"
+      - "所缘三层前提栈（有罪/我作/失利誉）+覆所缘的非究竟性"
+      - "障不覆→自苦闭环（悔恼为业·对内自苦）"
+      - "三段接力对治（惭感应器→无痴→无贪）"
+      - "感应器先起共性、依法不同臂（忿用愧/覆用惭）"
+      - "无贪收尾必需=现量印证护法'贪痴一分'否安慧'唯痴'"
+      - "见自：分别覆塌+俱生覆动意一闪不成操作"
+      - "见众：覆不现行须三段全断、顽固度=三段难度乘积"
+      - "覆'常驻动机'结构候选（贪+露则失+藏有非零保全概率）"
+      - "亲子样本：见解嗔与覆机制合流（见自见众同一跃迁两面）"
+      - "小随'双重假'候选（体分位假+所缘世俗概念假）"
+      - "覆罪者后必悔恼不安隐（覆主要受害者是自己）"
+      - "生活修对治案003（亲子场孩子覆藏与我的见解嗔）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-13"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-15"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-19"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-27"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-12"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-06-12"
+    status: "active"
+    content: "随烦恼单法精修第四法·恼（回到嗔系·一股瞋第三相暴发点）— 恼≠强忿（行相非强度双刃）+ 双爪结构（现前违缘+追往恶=恨结怨）+ 狠戾来自恨怨发酵 + 恼结构性不现行 + 亲子训斥经现量校正恼→强忿（经典>假说自我校正样本）+ '没认识到=分别'判定锁 + 见众生恼←恨←贪封顶+越陷越深苦"
+    log_file: "notes/logs/2026-06-12_study_log_恼.md"
+    key_concepts:
+      - "恼=瞋一分'追触暴热狠戾'分位（E分位假立·无内部体性诤议）"
+      - "忿/恨/恼三定义并排（忿唯现前·执仗/恨结怨·热恼/恼追往恶·狠戾·蛆螫）"
+      - "恼≠强忿（双刃）：唯识按行相非强度分立——强忿仍是忿/恼非强忿需恨+狠戾"
+      - "恼三处行相差异（所缘双爪/体性狠戾/业用蛆螫口业）"
+      - "双爪结构（现前爪触现违缘+往恶爪追往恶）"
+      - "往恶爪严格=恨结怨之追忆（类化/俱生瞋种厚度属忿强度源、非恼库存）"
+      - "狠戾来自恨怨发酵（怀恶不舍·热恼即发酵，越久越毒）"
+      - "双爪对治（断现前+清恨怨，戾毒为果断两源即熄）"
+      - "恼结构性不现行（修行者恨不现行→无往恶可追→够不成恼）"
+      - "亲子训斥经现量校正 恼→强忿（愤发无狠戾毒+翻旧账评估严重性非结怨）"
+      - "强忿强度源=见解嗔'覆该禁'我所强加+屡犯严重性评估（皆非恨）"
+      - "'追往评估'≠恼的'追往恶（追怨生毒）'（评估严重性非结怨）"
+      - "'没认识到≠来不及'=分别出身判定锁（闻思一拆即松⟹分别·见道断分别修道断俱生）"
+      - "见众生：嗔系链恼←恨←贪封顶（他坏看链末毒/他苦看链根爱执=苦因非坏人）"
+      - "越陷越深苦=利他善巧轴第三层最彻底一填（连'最像坏人'都还原成'陷最深的苦'）"
+      - "经典>假说+拒立膨胀现量自我校正样本（误判恼→严格回经典→校回强忿）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-13"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-15"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-19"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-27"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-12"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 95
+  total_reviews_scheduled: 115
   total_reviews_completed: 1
-  last_updated: "2026-06-09"
+  last_updated: "2026-06-12"
