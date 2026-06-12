@@ -992,7 +992,7 @@ reviews:
   - date: "2026-06-12"
     status: "active"
     content: "随烦恼单法精修第四法·恼（回到嗔系·一股瞋第三相暴发点）— 恼≠强忿（行相非强度双刃）+ 双爪结构（现前违缘+追往恶=恨结怨）+ 狠戾来自恨怨发酵 + 恼结构性不现行 + 亲子训斥经现量校正恼→强忿（经典>假说自我校正样本）+ '没认识到=分别'判定锁 + 见众生恼←恨←贪封顶+越陷越深苦"
-    log_file: "notes/logs/2026-06-12_study_log_恼.md"
+    log_file: "notes/logs/2026-06-12_study_log.md"
     key_concepts:
       - "恼=瞋一分'追触暴热狠戾'分位（E分位假立·无内部体性诤议）"
       - "忿/恨/恼三定义并排（忿唯现前·执仗/恨结怨·热恼/恼追往恶·狠戾·蛆螫）"
@@ -1037,8 +1037,56 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-12"
+    status: "active"
+    content: "随烦恼单法精修第五法·嫉（首个离嗔系违境链·起于他荣境）— 根在贪相在瞋=「嗔←我爱←我痴」通则显式书写 + 见自零和场被'排名无自性'拆解 + 对治双入口分离 + 究竟收于我痴（收进无痴双线·慢憍嫉同一钥匙）+ 随喜质地'冷→平'校正 + 见众生凡夫嫉=看不破排名无自性·利他善巧轴第三层最深一填 + 现量>假说自我校正"
+    log_file: "notes/logs/2026-06-12_study_log.md"
+    key_concepts:
+      - "嫉=瞋一分'不耐他荣'分位（E分位假立·无内部诤议·首个离嗔系违境链起于他荣境）"
+      - "三段链（殉自名利根·贪→不耐他荣反转点→妒忌忧戚相·瞋）"
+      - "反转点'顺境被我执读成逆境'（他荣本顺境·殉自名利这把尺量成我损）"
+      - "根在贪相在瞋——经典据现行相判瞋一分、不据根源判贪一分"
+      - "'嗔←我爱←我痴'通则（所有嗔来源于贪/我爱·嗔依违我所爱起·无所爱则无所嗔）"
+      - "末那俱生四惑（我痴/我见/我慢/我爱）+ 三毒次第痴→贪→瞋"
+      - "嫉为何挑明贪根（顺境被我执二次加工·不点破殉自名利就解释不了他荣凭什么成逆境）"
+      - "见自二分（非零和场贪内容本身→转研究姿态/真实零和场贪排名→忧戚明显）"
+      - "排名无自性（想比则有不想比则无·比较心产物·无天然带排名的境）→零和场也能拆纯境"
+      - "精度护栏：所空是'我相对他的价值序'·不否认物理结果"
+      - "对治双入口分离（贪求不得回贪根/嫉拆'我他对立'动作·命门后者不必动贪根·随喜反向磨贪）"
+      - "究竟收于我痴（了无自性锚照破排名不实→嫉自动消·收进无痴双线不需独立通道）"
+      - "慢/憍/嫉同一把钥匙破实我中心（三朝向我胜他/自盛/他胜我·假说18一致）"
+      - "随喜质地'冷→平'校正（表层标签转移自查：为他＝为己等量·本具足·不需培养热情）"
+      - "见众生：凡夫嫉=看不破排名无自性的结构性必然·利他善巧轴第三层最深一填"
+      - "现量>假说自我校正（假说18零和场无处可转被现量证伪→收于我痴）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-13"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-15"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-19"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-27"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-12"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 115
+  total_reviews_scheduled: 120
   total_reviews_completed: 1
   last_updated: "2026-06-12"
