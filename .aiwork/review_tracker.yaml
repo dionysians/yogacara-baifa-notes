@@ -1135,8 +1135,58 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-13-诳"
+    status: "active"
+    content: "随烦恼单法精修第七法·诳（贪痴一分组·为获利誉矫现有德）— 覆诳无独特核（利誉实执假因换真果·一守一攻对偶）+ 维持动力学差异 + 对治枢纽惭愧非填实 + 诳结构性不现行 + 叙事感染力抬高他人意愿（非诳·愧受欲层·般若如导）+ 自欺强化 + 双重假第四复证 + 元层确立研究议题来源约束"
+    log_file: "notes/logs/2026-06-13_study_log.md"
+    key_concepts:
+      - "诳（贪痴一分·矫现有德·诡诈为性·邪命为业·E分位假立·无诤议）"
+      - "五邪命（《大智度论》：诈现异相/自说功德/占相吉凶/高声现威/说所得利动人）/ 正命"
+      - "覆诳无独特核（同是利誉实执'假因换真果'·一守一攻对偶·经典'离二无别'）"
+      - "维持动力学差异（增益面可被兑现故诳自带穿帮压力 / 减损面只需遮蔽故覆稳态·分位方向派生非体性）"
+      - "对治枢纽永远是惭愧、非'填实'（填实若由怕后果驱动反熏厚诳种）"
+      - "判心相不判形式（诳是心所·判准不在符实度在心相二层背离）"
+      - "诳核两要素（异谋=二层背离 + 矫现增益=无装有）+ 共业约定下事实断言性质"
+      - "两范围归位（诳是个人染心所非商业伦理判定 / 谋生动机中性·不实才是毒）"
+      - "新情形居中地带（伪造增益接机缘=那一刻有诳核但复合且轻·损他与否是业相变量）"
+      - "诳结构性不现行（惭愧感应器源头先起·连那一闪都不起·臂偏愧）"
+      - "叙事感染力抬高他人意愿=非诳的邻区现象（真信共担故无诳·归位愧的认知/受欲层）"
+      - "信息如实挡不住（对方受/欲被激发·自以为理性=对方不正知·问题在受欲层）"
+      - "对治上移初心利他·五度如盲般若如导"
+      - "三段全断对仗覆（愧感应器→无痴→无贪·臂覆偏惭/诳偏愧）"
+      - "常驻动机第三复证 + 自欺强化（连'我在诳'的刹车都吃掉·自我认知层最顽固）"
+      - "装有德则不修德障道（五邪命原型自说功德）= 利他善巧轴第三层一填"
+      - "双重假第四复证（所缘'德/利誉形象=人设'纯认知建构·连物理载体都没有）"
+      - "研究议题来源约束（讲法/深入讨论议题只许两来源：经典衍生/修行者诉求）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-14"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-16"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-20"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-28"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-13"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 125
+  total_reviews_scheduled: 130
   total_reviews_completed: 1
   last_updated: "2026-06-13"
