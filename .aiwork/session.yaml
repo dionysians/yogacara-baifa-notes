@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-06-13"
+last_updated: "2026-06-16"
 status: "active"
 
 # 项目描述
@@ -25,11 +25,11 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 遍行✅ 别境✅ 善心所 11/11✅；烦恼心所·根本烦恼 6/6✅（子阶段 1 收官）→ 子阶段 2 随烦恼 20 法（骨架文档完成 2026-06-09；单法精修 7/20：忿✅ 恨✅ 覆✅ 恼✅ 嫉✅ 悭✅ 诳✅ — 新'单法学习循环'流程）；不定未开始"
+  current_phase: "阶段三：心所法（51法）— 遍行✅ 别境✅ 善心所 11/11✅；烦恼心所·根本烦恼 6/6✅（子阶段 1 收官）→ 子阶段 2 随烦恼 20 法（骨架文档完成 2026-06-09；单法精修 10/20：忿✅ 恨✅ 覆✅ 恼✅ 嫉✅ 悭✅ 诳✅ 谄✅ 害✅ 憍✅ — 小随 10 法收官 2026-06-16）；中随 2 + 大随 8 未开始；不定未开始"
   current_stage_start_date: "2026-03-05"
-  stage_3_completion: 88
-  completion_percentage: 44
-  last_updated: "2026-06-13"
+  stage_3_completion: 90
+  completion_percentage: 45
+  last_updated: "2026-06-16"
 
 # 学习方法
 study_methods:
@@ -40,10 +40,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 30
-  total_hours: 92.83
-  last_session_date: "2026-06-13"
-  last_session_content: "诳精修（随烦恼小随 7/20，与悭同日 150min）；逐场完整摘要见 STUDY_PLAN.md 学习记录表 + notes/logs/ 每日日志。本字段仅留最近一场指针、不再串联历史。"
+  total_sessions: 33
+  total_hours: 97.83
+  last_session_date: "2026-06-16"
+  last_session_content: "憍精修（随烦恼小随 10/20 收官，120min，小随十法收官·'小'之指代提炼）；本次补记谄6/14+害6/15。逐场完整摘要见 STUDY_PLAN.md 学习记录表 + notes/logs/。"
 
 # 相关文档
 documents:
@@ -82,9 +82,9 @@ stage_history:
     start_date: "2026-03-05"
     end_date: null
     status: "in_progress"
-    progress: 88
-    last_update: "2026-06-13"
-    update_note: "心所法（51法）进行中：遍行5✅ 别境5✅ 善心所11✅ + 烦恼·根本烦恼6✅（子阶段1收官）+ 随烦恼骨架✅ → 子阶段2单法精修 7/20（忿恨覆恼嫉悭诳✅；谄害憍 + 中随2 + 大随8 未完）；不定4法未开始。逐法完整摘要见 STUDY_PLAN.md 学习记录表 + CLAUDE.md 画像演化表 + notes/logs/。"
+    progress: 90
+    last_update: "2026-06-16"
+    update_note: "心所法（51法）进行中：遍行5✅ 别境5✅ 善心所11✅ + 烦恼·根本烦恼6✅（子阶段1收官）+ 随烦恼骨架✅ → 子阶段2单法精修 10/20（忿恨覆恼嫉悭诳谄害憍✅·小随10法收官 2026-06-16；'小'之指代提炼并入骨架§2.6）；中随2 + 大随8 未开始；不定4法未开始。逐法完整摘要见 STUDY_PLAN.md 学习记录表 + CLAUDE.md 画像演化表 + notes/logs/。"
   - stage_number: 4
     stage_name: "色法（11法）"
     start_date: null

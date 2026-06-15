@@ -1184,9 +1184,121 @@ reviews:
         interval_days: 30
         completed: false
         completion_date: null
+  - date: "2026-06-14"
+    content: "随烦恼单法精修第八法·谄（贪痴一分组收口·缘他取意）— 谄无独特核·两参数模型（贪对象×抓取方式）+ 判心相不判形式收于发心判准（网他vs利他）+ 谄结构性不现行（母态过直·谄反极）+ 表达域反转（染污镜像是诳）+ 常驻动机熏种循环变体 + 双重假第五复证 + 利他善巧轴输出侧填补"
+    concepts:
+      - "谄（贪痴一分·矫设异仪·险曲为性·障教诲）"
+      - "对自对他对仗证伪 + 两参数模型（贪对象×抓取方式）"
+      - "判心相不判形式收于发心判准（网他取利vs利他随顺）"
+      - "谄结构性不现行（发心不网他·母态过直·谄反极）"
+      - "表达域反转（调整表达非谄·染污镜像是诳显专业）"
+      - "贪种熏习正反馈环（常驻动机第四复证·熏种循环变体）"
+      - "双重假第五复证（网住他人=关系性世俗建构）"
+      - "利他善巧轴输出侧填补 + 见自见众合流于直心利他随顺"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-15"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-17"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-21"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-29"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-14"
+        interval_days: 30
+        completed: false
+        completion_date: null
+  - date: "2026-06-15"
+    content: "随烦恼单法精修第九法·害（嗔系五法 忿恨恼嫉害 收官）— 准善应说正读 + 两参数正向确认无剩余+纲领适用域收紧（E类只正向确认）+ 心无悲愍三层用意 + 判别点=损恼为性非心无悲愍→害结构性不现行 + 三型动机（报复/扩张/正当化·害无天然源）+ 究竟归因贪+俱生痴+恶见 + 九恼事+杀生通三毒互印 + 悲愍通治全嗔系"
+    concepts:
+      - "害（嗔一分·损恼为性·逼迫为业·不害对偶）"
+      - "「准善应说」正读（害=嗔一分无别体·准照不害=无嗔一分）"
+      - "两参数正向确认无剩余 + 纲领适用域收紧（E类只正向确认）"
+      - "「心无悲愍」三层用意（所缘定位码/对偶镜像/对治显写）+ 状态-书写两层澄清"
+      - "嗔系五法链收口（时序三相+各起一支·去底色并行非层级）"
+      - "判别点=损恼为性非心无悲愍 → 害结构性不现行"
+      - "三型动机（报复/扩张/正当化）+ 害无天然源 + 究竟归因贪+俱生痴+恶见"
+      - "九恼事 + 杀生通三毒互印 + 悲愍通治全嗔系 + 破实我中心一把钥匙"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-16"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-18"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-22"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-06-30"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-15"
+        interval_days: 30
+        completed: false
+        completion_date: null
+  - date: "2026-06-16"
+    content: "随烦恼单法精修第十法·憍（贪系·于自盛事醉傲·小随10法收官）— '盛'=圈层相对建构正价（非客观胜出/稀缺归慢侧）+ 两参数无剩余 + 染依为业宽口温床+自熏贪种正反馈 + 憍结构性不现行（法贪≠憍·假说18贪系侧·比L4慢彻底）+ 命门三自封闭 + 钥匙拆深度（建构类表层/慢深层）+ 小随'小'之指代提炼（看破深度现行级=表层覆盖全体含害·重定向提炼经典设定非立假设）"
+    concepts:
+      - "憍（贪一分·于自盛事醉傲·染依为业·不憍归无贪）+ 七憍"
+      - "憍慢辨异（缘自vs缘他·撤照仍在vs消失）"
+      - "'盛'=圈层相对建构正价（非客观胜出/非稀缺·双重假当代强样本）"
+      - "两参数无剩余（傲≠慢举我·醉之昏=痴共同底不专写）"
+      - "染依为业宽口温床（放逸/掉举/散乱三后继摆位）+ 自熏贪种正反馈"
+      - "憍结构性不现行（法贪≠憍·假说18贪系侧印证·比L4慢更彻底）"
+      - "小随见自全景仅忿现行 + 命门在维持机制不在起因·三重自封闭"
+      - "钥匙拆深度（建构类小随表层破建构/慢深层破我中心）"
+      - "小随10法收官·'小'之指代（看破深度现行级=表层覆盖全体含害·重定向）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-17"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-19"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-06-23"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-07-01"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-16"
+        interval_days: 30
+        completed: false
+        completion_date: null
 
 # 统计信息
 statistics:
-  total_reviews_scheduled: 130
+  total_reviews_scheduled: 145
   total_reviews_completed: 1
-  last_updated: "2026-06-13"
+  last_updated: "2026-06-16"
