@@ -1336,8 +1336,48 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-25"
+    content: "随烦恼大随第一法·掉举（大随八法开篇·令心于境不寂静·障行舍奢摩他·护法立别有体）— 别有体定夺（护法两刀通一切染心+独立业用·与无惭无愧同构外延宽度差一层）+ 举我引力中心（第三层未现量印证·末那层难捕捉）+ L4位置慢⊃掉举 + 见自掉举罕现非主现行（主现行=想搞明白的驱动力·大随八降级第二例）+ 驱动力三态分诊（善欲/无记好奇/法贪·抓取放不下判准·议题②法贪层进展）+ 念力反比双因素+惛沉为主 + 功能-染色二分→后得智（议题⑤·我执薄→看系统更清明）+ 中道贯身心 + DMN色法镜像 + '大'之指代起步（两维共变+对治深度三尺·待大随收官落实）"
+    concepts:
+      - "掉举（令心于境不寂静·障行舍奢摩他·大随第一法·五盖之掉举盖）"
+      - "别有体诤议（集论贪一分摄/瑜伽俱一分摄/护法别有自体·护法两刀通一切染心+独立业用·与无惭无愧同构外延宽度差一层〔不善心/染心〕）"
+      - "举我引力中心（第三层·现量未印证·末那层难捕捉）+ L4位置慢⊃掉举（静态举我可独立/动态飞扬必依）"
+      - "三法辨异（掉举浮/散乱驰/惛沉沉·修定调弦两端）"
+      - "见自更正：掉举罕现非主现行（主现行=想搞明白的驱动力·欲性非飞扬·大随八降级第二例·念力反比双因素·惛沉为主）"
+      - "驱动力三态分诊（精进=善欲/纯粹好奇=无记欲/法贪=染欲·核心判准观照贪心所抓取放不下·议题②法贪层进展定力中断·末那附着层+无记好奇时间维度两边界）"
+      - "功能-染色二分（对治掉举=释放染色非删功能）→转识成智/后得智（功能净化为权智·接议题⑤·我执薄→看系统更清明现量印证）+破消解=丧失功能伪问题"
+      - "中道贯身心两层（依身修道·掉举太紧惛沉太松调弦）"
+      - "默认模式网络（DMN）色法镜像（自我枢纽↔举我/走神外壳↔掉举散乱·非证明·任务负相关↔打坐掉举盖·修定降伏DMN↔奢摩他对治）"
+      - "'大'之指代起步（两维独立共变〔影响范围/对治深度·能浅层处理就不成基底〕+对治深度三尺〔看破难度/时间/定力配合强度·三层级非连续〕·待大随收官落实§2.8）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-26"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-28"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-07-02"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-07-10"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-25"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 150
+  total_reviews_scheduled: 155
   total_reviews_completed: 1
-  last_updated: "2026-06-24"
+  last_updated: "2026-06-25"
