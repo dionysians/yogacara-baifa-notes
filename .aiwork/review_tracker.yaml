@@ -1297,8 +1297,47 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-24"
+    content: "随烦恼中随两法·无惭无愧（中随收官·大不善地法·遍一切不善心·定不相离·护法立别有体）— 不善心与三性（染⊋不善·有覆无记反证）+ 别有体诤议（无根本烦恼外延=不善心·灯灭刹车松·不归痴）+ 必俱起（过恶两面俱全→单一不耻必落两面·排混搭排单飞）+ 刹那级业用（刹那生灭等无间缘逐刹那截断·惭愧四情况）+ '中'之指代（善心所对偶级·立惭愧非破·搭通道不另立）+ 见自更正无惭无愧确实现行（两场脉冲·愧外向轴清场）+ 凡夫无耻=惭愧因缘两层不足"
+    concepts:
+      - "无惭无愧（大不善地法·遍一切不善心·定不相离·护法立别有体）+ 交叉反转（崇善拒恶→拒善崇恶）"
+      - "不耻过恶通相非别相"
+      - "不善心与三性（善/不善/无记·无记分有覆/无覆·染⊋不善·三判准：感苦果/与无惭无愧相应/唯欲界）"
+      - "别有体诤议（经部还原vs护法别立·无根本烦恼外延=不善心·大不善地法vs大烦恼地法·动力≠不善性·熏贪嗔种≠熏不善业种·不归痴·灯灭/刹车松·缺位型质地不反驳）"
+      - "必俱起=定不相离（一把尺两面·过恶两面俱全→单一不耻必落两面·排混搭〔善不善不俱〕排单飞〔无单面之恶〕）"
+      - "刹那级业用（刹那生灭·等无间缘·将起/中断合一逐刹那截断·惭愧四情况=善心所独立正面体性非烦恼函数）"
+      - "'中'之指代（不善心位结构标记·恰好2法=两面决定·对治深度善心所对偶级·立惭愧非破·搭惭愧通道不另立）"
+      - "见自更正：无惭无愧确实现行（两场脉冲：亲子强忿+法染色层见解嗔一阶·皆愧外向轴清场·截断加速=征兆标的反应强度下降）"
+      - "见众生：凡夫无耻=惭愧因缘两层不足（俱生种子+现世见地缘）+见自见众同一跃迁两面+利他补缘"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-25"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-27"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-07-01"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-07-09"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-24"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 145
+  total_reviews_scheduled: 150
   total_reviews_completed: 1
-  last_updated: "2026-06-16"
+  last_updated: "2026-06-24"
