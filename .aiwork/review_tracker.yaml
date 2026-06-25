@@ -1376,8 +1376,51 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-25"
+    content: "随烦恼大随第二法·惛沉（同日第二场·令心无堪任·障轻安观·护法立别有体·降级第三例）"
+    concepts:
+      - "惛沉定义（令心于境无堪任·障轻安毗钵舍那·惛眠盖·梵文styāna）"
+      - "别有体定夺（依痴立vs护法别体·护法两刀痴分不能尽+专障轻安观·虽与痴相似而非即痴·与掉举同构第三次落地）"
+      - "无明两显现面（了理面=痴/堪能面=惛沉）+三法辨异（惛沉钝/眠下线/痴迷理/失念丢所缘）"
+      - "缘起谱系（惛沉直挂无明堪能面·不经受爱链·缺乏型默认态·护根正反馈障观→无明续=为何底层）"
+      - "引力-逃逸比喻（惛沉=引力/推进=精进念力/逃逸速度=念力临界点任运·统一惛沉对治失念守细任运）"
+      - "见自降级第三例（三尺复查明利满格/无下沉/无渐进突然断→粗细惛沉皆不现行·松端守门是失念非惛沉·明利质地不退化成钝重·§6.2否决·双场域否决）"
+      - "真问题=细所缘失念关口（呼吸细→所缘弱→念力接不住→失念微眠·童年同模式·6/25粗息对照·定历来天花板·议题①慧定不匹配能入细守不住细）"
+      - "念力底板/颗粒度假说（日常粗所缘碰不到·唯坐中降所缘暴露训练念力底板=坐中修不可替代·接信号框架）"
+      - "对治念力守细非补明分（A主座地基更正·中段守细/临界段回粗治标/治本数→随穿阈·六妙门）"
+      - "味定→痴型校正（误认那段断空为禅定效果=痴非贪味著·本心不追·知直接对治痴自证·凡夫贪痴型/修行者纯痴型转向干净·含模型过度解读自我校正）"
+      - "养明vs断暗根+一切智=后得智（事相痴闻可填/根本痴须现观转依·断所知障撤滤镜法尔无碍=后得智权智=议题⑤利他善巧轴究竟边非学来）"
+      - "了-痴之别（纯未了无覆无记累积+机缘非痴/痴所障俱生无明遮蔽·判准有无颠倒执·甚深法理含痴层）"
+      - "大之续推（三尺深/长/强=基底配置级·经典位+见众生位·两维共变+遍染心外延·待大随收官§2.8）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-26"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-06-28"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-07-02"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-07-10"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-25"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 155
+  total_reviews_scheduled: 160
   total_reviews_completed: 1
   last_updated: "2026-06-25"
