@@ -1419,8 +1419,96 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-06-29"
+    content: "随烦恼大随第三法·不信（令心于实德能不忍乐欲·心秽为性·障净信·惰依为业·护法立别有体·降级首例）"
+    concepts:
+      - "不信定义（于实德能不忍乐欲·心秽为性·能障净信·惰依为业·梵文āśraddhya·完整镜像信）"
+      - "惰依为业校正（非堕依·作懈怠所依·经典顺序不信→懈怠据此）"
+      - "别有体招式第四次落地（护法两刀痴分不能尽〔趋向面之秽〕+自秽秽他独立业用·对偶信体微妙故论证压力最大·外延遍染心）"
+      - "无明三显现面（了理面=痴/堪能面=惛沉/趋向面=不信）"
+      - "横向全局污染vs纵向专障（不信污染心净趋向公共基底=对所有善心所生效·四法唯一横向型）"
+      - "三法辨异（不信质地态/疑未决态·可不疑而仍不信·不信vs痴趋向面对了理面·不信vs邪见情意层对颠倒慧层）"
+      - "见自降级首例（四要素现量未发现残留·守未发现≠确证无·最强降级形态·大随三降级形态俱全：不信无遮蔽/掉举事件遮蔽/惛沉不现行）"
+      - "信德冷质地校正为分面（实面法理强热质地法喜/德面三宝冷质地·限德面不泛化·热在理冷在相慧解脱典型·冷≠不乐）"
+      - "起毛喜（小喜khuddikā pīti·浑身发麻毛孔竖立·法喜身体征相·《清净道论》五喜）"
+      - "懈怠根切分=精进力+痴一分saṃvega非不信（不走不信→懈怠凡夫链·了痴之别双层元认知无痴正知+法理痴所障·递归痴觉照·预埋懈怠·治本补痴非单策励）"
+      - "理热相冷候选（第三层不立定论·德面冷+紧迫感未起同源·慧解脱理性派·待懈怠核）"
+      - "见众生（凡夫不信三面实德能+心秽无报警+不信→懈怠生起次第+利他认知路径补令心趋向缘+见自见众合流心净为性）"
+      - "大之续推（三尺深/长/强=基底配置级·基底义最纯一法障公共基底本身·经典位+见众生位·§2.8）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-30"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-07-02"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-07-06"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-07-14"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-29"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
+  - date: "2026-06-29"
+    content: "随烦恼大随第四法·懈怠（同日第二场·于善恶品修断事中懒惰为性·障精进·增染为业·护法立别有体·大随真主修区首法）"
+    concepts:
+      - "懈怠定义（于善恶品修断事中懒惰为性·能障精进·增染为业·梵文kausīdya·完整镜像精进）"
+      - "方向判准（于诸染事而策勤者亦名懈怠退善法故·判方向非活动量·勤染亦懈怠·身忙而于修断事懈怠·判定单元=优先级颠倒非时间会计）"
+      - "别有体无诤议（对偶精进体性最鲜明vīra→别立无压力=护法招式落地自然收束/终点·掉举有诤议→惛沉有→不信压力最大→懈怠归零）"
+      - "三懈怠（入行论：推延/耽劣/自轻·镜像勇悍双时点）"
+      - "三法辨异（懈怠动力层惰vs放逸守护缺〔放逸D复合分位含懈怠〕vs惛沉堪能层钝vs眠昧略）"
+      - "懈怠根三块并列（痴侧暇满行苦未现量·命好遮自苦·连比量都没有 / 精进力双不足+无转换链 / 元层遮强表弱·否决痴上游双不足中性上游假说）"
+      - "遮强表弱（空性见遮诠之学结构签名·斩断遮能/升起表不能·能分清贪紧迫vs善saṃvega非表层标签转移·贯穿惭愧清场/悲悯涌现/干慧/懈怠）"
+      - "2D模型（操作遮/表 × 所缘理/相·遮全能/表×理热/表×相冷·干慧乐观解=表×理能动力理-所缘没对准）"
+      - "统一签名（用果位见地消解因位动力·空性溶出离/任运溶善saṃvega/长路不急溶勇悍=干慧机制）"
+      - "行苦厘清（不执着就没逼迫=现行级真证量/行苦=种子级不安稳·麁重所随·掌中毛眼中毛·感受不到才是凡夫位标准）"
+      - "对治欲钩双线（欲非升起是胜解·点火开关在慧手里·A求果德不退大自在=不安稳表翻面接披甲种子/B见众生苦冷悲菩提心撬入自苦·绕命好遮自苦·B供A苦谛燃料）"
+      - "经典骨架（三士道=欲钩总架构两线=中上二士钩/入行论精进品断三懈怠+四力信解力点火欢喜力续火·善精进熏显非升起假说8）"
+      - "见众生苦撬入自苦（修行者行苦命好掩盖见自苦难/众生苦显见众苦易→见自见众苦谛现量合流·三合一点欲钩+补自苦+长利他轴）"
+      - "无死恐惧切层（probe1非现量是比量+想象·类A无悔无愧+无贪着真资粮不可动·只破拿它给不急背书·中阴认光明须现世修习开放项）"
+      - "大之续推（三尺深/长/强=基底配置级·第一个现量位证据·懈怠现行真主修区·别有体无诤议招式收束·§2.8·遮强表弱不入假说表）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-06-30"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-07-02"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-07-06"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-07-14"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-07-29"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 160
+  total_reviews_scheduled: 170
   total_reviews_completed: 1
-  last_updated: "2026-06-25"
+  last_updated: "2026-06-29"
