@@ -22,7 +22,9 @@
       "WebFetch(domain:cbetaonline.dila.edu.tw)",
       "WebFetch(domain:www.quanxue.cn)",
       "Bash(grep -n '^#\\\\{1,4\\\\} ' CLAUDE.md)",
-      "Bash(python3 /Users/tianluo/projects/大乘百法明门论/.claude/skills/concept-card/query.py lookup-batch 《成唯识论》 《瑜伽师地论》 《大乘阿毗达磨集论》 窥基 《成唯识论述记》 五果)"
+      "Bash(python3 /Users/tianluo/projects/大乘百法明门论/.claude/skills/concept-card/query.py lookup-batch 《成唯识论》 《瑜伽师地论》 《大乘阿毗达磨集论》 窥基 《成唯识论述记》 五果)",
+      "WebFetch(domain:www.jcedu.org)",
+      "WebFetch(domain:www.shixiu.net)"
     ]
   }
 }

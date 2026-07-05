@@ -1507,8 +1507,53 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-07-02"
+    content: "随烦恼大随第五法·放逸（于染净品不能防修·纵荡为性·障不放逸·增恶损善所依为业·护法明文非别有体·大随八唯一D复合分位）"
+    concepts:
+      - "放逸定义（于染净品不能防修·纵荡为性·障不放逸·增恶损善所依为业·梵文pramāda）"
+      - "非别有体/D复合分位（大随八唯一·本体谱系拐点=招式线终结·谓由懈怠及贪嗔痴不能防修染净品法总名放逸）"
+      - "组合逻辑破与（贪嗔不俱起·四成分永不齐现·若须俱起则放逸永无现行与遍染心矛盾）"
+      - "组合逻辑破或（放逸非触发事件法·是每一染心刹那本有的配置面·所依恒≥懈怠+痴〔二者皆遍染〕）"
+      - "逐位反占正解（虽慢疑等亦有此能而方彼四势用微劣障三善根遍策法故·四法=不放逸四位的逐位对障·配置模板四岗位非触发清单）"
+      - "纵荡=无守×被载（懈怠夺动力/痴夺知见/贪嗔供流向·特性是真的体是假的·推究无剩余=分位假立严格含义）"
+      - "俱舍对照=招式线反向验证（有部立放逸实体〔大烦恼地法六〕/护法反为还原方·两刀能输出否·前四次是才有分量）"
+      - "假立↔假立唯一对偶（不放逸=精进三根分位假立·四对四逐位取反·精进三法分工守护模式的反面）"
+      - "配置层立名三理由（增恶损善所依=相续层土壤/道的操作单位在配置层·佛陀遗教appamāda·法句经不放逸品/诊断缺一位唯配置语言可说）"
+      - "三法辨异（放逸守护维度vs懈怠动力维度vs失念明记失）"
+      - "见自伴生降级（懈怠主导型放逸=清净型纵荡·三毒防线稳唯懈怠松·降级第四形态伴生投影型·大随五法真主修唯懈怠）"
+      - "三根位双机制（种子势力弱为主+贪嗔起那一下可感+惭愧迅速瓦解可感=相续层守护真实在运作·守不能完全做到）"
+      - "遮强表弱配置侧再证（三根位靠遮守/精进位需表生=唯一缺位恰是唯一表性岗位·与动力层诊断互证）"
+      - "遮诠与表诠（遮=遣其所非/表=显其所是·宗密禅源诸诠集都序盐水之例·诠→操作引申属第二层映射）"
+      - "大之续推（衍生型·借成分+总闸遍在性·基底配置级最纯字面第二例·五随网络枢纽起头登记回填·§2.8）"
+    review_schedule:
+      - review_number: 1
+        scheduled_date: "2026-07-03"
+        interval_days: 1
+        completed: false
+        completion_date: null
+      - review_number: 2
+        scheduled_date: "2026-07-05"
+        interval_days: 3
+        completed: false
+        completion_date: null
+      - review_number: 3
+        scheduled_date: "2026-07-09"
+        interval_days: 7
+        completed: false
+        completion_date: null
+      - review_number: 4
+        scheduled_date: "2026-07-17"
+        interval_days: 15
+        completed: false
+        completion_date: null
+      - review_number: 5
+        scheduled_date: "2026-08-01"
+        interval_days: 30
+        completed: false
+        completion_date: null
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 170
+  total_reviews_scheduled: 175
   total_reviews_completed: 1
-  last_updated: "2026-06-29"
+  last_updated: "2026-07-02"
