@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-07-02"
+last_updated: "2026-07-06"
 status: "active"
 
 # 项目描述
@@ -25,11 +25,11 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 遍行✅ 别境✅ 善心所 11/11✅；烦恼心所·根本烦恼 6/6✅（子阶段 1 收官）→ 子阶段 2 随烦恼 20 法（骨架文档完成 2026-06-09；单法精修 17/20：小随 10 ✅ 收官 2026-06-16 + 中随 无惭无愧 ✅ 收官 2026-06-24 + 大随 掉举 ✅ + 惛沉 ✅ 2026-06-25 + 不信 ✅ + 懈怠 ✅ 2026-06-29 + 放逸 ✅ 2026-07-02）；大随余 3 法进行中（下一步失念）；不定未开始"
+  current_phase: "阶段三：心所法（51法）— 遍行✅ 别境✅ 善心所 11/11✅；烦恼心所·根本烦恼 6/6✅（子阶段 1 收官）→ 子阶段 2 随烦恼 20 法（骨架文档完成 2026-06-09；单法精修 18/20：小随 10 ✅ 收官 2026-06-16 + 中随 无惭无愧 ✅ 收官 2026-06-24 + 大随 掉举 ✅ + 惛沉 ✅ 2026-06-25 + 不信 ✅ + 懈怠 ✅ 2026-06-29 + 放逸 ✅ 2026-07-02 + 失念 ✅ 2026-07-06）；大随余 2 法进行中（下一步散乱）；不定未开始"
   current_stage_start_date: "2026-03-05"
-  stage_3_completion: 96
-  completion_percentage: 48
-  last_updated: "2026-07-02"
+  stage_3_completion: 97
+  completion_percentage: 49
+  last_updated: "2026-07-06"
 
 # 学习方法
 study_methods:
@@ -40,10 +40,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 39
-  total_hours: 107.83
-  last_session_date: "2026-07-02"
-  last_session_content: "放逸（大随 17/20，60min；大随八唯一非别有体·组合逻辑=守护配置逐位反占 + 俱舍对照招式反向验证 + 见自伴生降级〔懈怠投影〕+ 遮强表弱配置侧再证）。详见 STUDY_PLAN + notes/logs/。"
+  total_sessions: 40
+  total_hours: 108.83
+  last_session_date: "2026-07-06"
+  last_session_content: "失念（大随 18/20，60min；B 俱一分摄首法·痴的构成作用〔覆境覆失·劫持/空缺两形态〕+ 细所缘关口立案〔空缺型为体·培育型主修区〕+ 守细修订预装三件套 + 三轮模型与末那地板）。详见 STUDY_PLAN + notes/logs/。"
 
 # 相关文档
 documents:
@@ -82,9 +82,9 @@ stage_history:
     start_date: "2026-03-05"
     end_date: null
     status: "in_progress"
-    progress: 96
-    last_update: "2026-07-02"
-    update_note: "心所法（51法）进行中：遍行5✅ 别境5✅ 善心所11✅ + 烦恼·根本烦恼6✅（子阶段1收官）+ 随烦恼骨架✅ → 子阶段2单法精修 17/20（小随10✅收官 2026-06-16·'小'§2.6 + 中随无惭无愧✅收官 2026-06-24·'中'§2.7 + 大随掉举✅ 惛沉✅ 2026-06-25 + 不信✅ 懈怠✅ 2026-06-29 + 放逸✅ 2026-07-02·'大'之指代续证§2.8）；大随余3法进行中（下一步失念）；不定4法未开始。逐法完整摘要见 STUDY_PLAN.md 学习记录表 + CLAUDE.md 画像演化表 + notes/logs/。"
+    progress: 97
+    last_update: "2026-07-06"
+    update_note: "心所法（51法）进行中：遍行5✅ 别境5✅ 善心所11✅ + 烦恼·根本烦恼6✅（子阶段1收官）+ 随烦恼骨架✅ → 子阶段2单法精修 18/20（小随10✅收官 2026-06-16·'小'§2.6 + 中随无惭无愧✅收官 2026-06-24·'中'§2.7 + 大随掉举✅ 惛沉✅ 2026-06-25 + 不信✅ 懈怠✅ 2026-06-29 + 放逸✅ 2026-07-02 + 失念✅ 2026-07-06·'大'之指代续证§2.8）；大随余2法进行中（下一步散乱）；不定4法未开始。逐法完整摘要见 STUDY_PLAN.md 学习记录表 + CLAUDE.md 画像演化表 + notes/logs/。"
   - stage_number: 4
     stage_name: "色法（11法）"
     start_date: null
