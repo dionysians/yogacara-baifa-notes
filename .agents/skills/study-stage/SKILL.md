@@ -1,42 +1,19 @@
 ---
 name: study-stage
-description: Use only when the user explicitly invokes `study-stage`, `$study-stage`, or asks to run the `study-stage` workflow for this 《大乘百法明门论》 project. Do not trigger from general semantic similarity. This workflow starts or re-enters a learning stage, prepares stage files, and aligns stage tracking data.
+description: Use only when the user explicitly invokes `study-stage`, `$study-stage`, or asks to run the `study-stage` workflow for this 《大乘百法明门论》 project. Do not trigger from general semantic similarity. Executes the complete Claude `/study-stage` command contract, including validation, prerequisites, scaffolding, state updates, special handling, and errors.
 ---
 
 # Study Stage
 
-This is a workflow-style skill for this repository. Treat it as the Codex equivalent of the old `/study-stage` command.
+This repository keeps the detailed workflow in one canonical place so the Claude command and Codex skill cannot drift.
 
-## Inputs
+## Required execution contract
 
-- Required: stage number `1-7`
-- Optional: whether to continue, restart, or only inspect an already-started stage
+1. Read [`AGENTS.md`](../../../AGENTS.md) completely before taking action.
+2. Read [the canonical Claude command](../../../.claude/commands/study-stage.md) completely, from the first line through the end, every time this skill runs.
+3. Execute that command as the binding workflow specification. Preserve all of its modes, parameter validation, questions and their order, calculations, templates, file reads and writes, synchronization rules, confirmations, error handling, examples, and final output requirements.
+4. Do not replace the command with a summary, skip an interaction because this adapter is shorter, or invent behavior that is absent from the command.
+5. Treat `$study-stage <arguments>`, `study-stage <arguments>`, and the command's `/study-stage <arguments>` syntax as the same invocation. Translate only the invocation syntax; keep the workflow's observable behavior and repository changes unchanged.
+6. When the command requires user input that was not supplied, ask for it at the exact point prescribed by the command. When the input is already present in the conversation or repository, reuse it instead of asking again.
 
-## Workflow
-
-1. Read [AGENTS.md](../../../AGENTS.md).
-2. Read `.aiwork/session.yaml` and `.aiwork/STUDY_PLAN.md`.
-3. Validate the requested stage number and map it to the stage structure already used in the repository:
-   - 1: 准备与概览
-   - 2: 心法
-   - 3: 心所法
-   - 4: 色法
-   - 5: 心不相应行法
-   - 6: 无为法
-   - 7: 整合与深化
-4. Check the previous stage state and the requested stage's existing status.
-5. If starting or restarting, prepare the stage directory, `README.md`, and `stage_summary.md` scaffold as appropriate for that stage.
-6. Update `.aiwork/session.yaml` and `.aiwork/STUDY_PLAN.md` so current stage, dates, and progress remain consistent.
-7. Reuse the repository's existing stage folder naming and subfolder layout instead of inventing a new structure.
-
-## Output Expectations
-
-- Report the stage entered
-- Report any files created or updated
-- Mention prerequisites or incomplete prior stages if relevant
-
-## Guardrails
-
-- Only use this skill when directly invoked by name
-- Avoid resetting an active stage unless the user explicitly asks for restart behavior
-- Keep stage names and numbering consistent with the existing repository
+The linked Claude command is the source of truth. If this adapter and the command ever appear to disagree, follow the command.

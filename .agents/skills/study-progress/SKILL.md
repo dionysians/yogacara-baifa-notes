@@ -1,41 +1,19 @@
 ---
 name: study-progress
-description: Use only when the user explicitly invokes `study-progress`, `$study-progress`, or asks to run the `study-progress` workflow for this 《大乘百法明门论》 project. Do not trigger from general semantic similarity. This workflow views or updates overall learning progress, stage status, and study statistics.
+description: Use only when the user explicitly invokes `study-progress`, `$study-progress`, or asks to run the `study-progress` workflow for this 《大乘百法明门论》 project. Do not trigger from general semantic similarity. Executes every view, update, stats, calculation, report, and error-handling behavior in the Claude `/study-progress` command.
 ---
 
 # Study Progress
 
-This is a workflow-style skill for this repository. Treat it as the Codex equivalent of the old `/study-progress` command.
+This repository keeps the detailed workflow in one canonical place so the Claude command and Codex skill cannot drift.
 
-## Modes
+## Required execution contract
 
-- Default: show current progress
-- `update`: change stage progress or current stage
-- `stats`: produce detailed statistics
+1. Read [`AGENTS.md`](../../../AGENTS.md) completely before taking action.
+2. Read [the canonical Claude command](../../../.claude/commands/study-progress.md) completely, from the first line through the end, every time this skill runs.
+3. Execute that command as the binding workflow specification. Preserve all of its modes, parameter validation, questions and their order, calculations, templates, file reads and writes, synchronization rules, confirmations, error handling, examples, and final output requirements.
+4. Do not replace the command with a summary, skip an interaction because this adapter is shorter, or invent behavior that is absent from the command.
+5. Treat `$study-progress <arguments>`, `study-progress <arguments>`, and the command's `/study-progress <arguments>` syntax as the same invocation. Translate only the invocation syntax; keep the workflow's observable behavior and repository changes unchanged.
+6. When the command requires user input that was not supplied, ask for it at the exact point prescribed by the command. When the input is already present in the conversation or repository, reuse it instead of asking again.
 
-## Workflow
-
-1. Read [AGENTS.md](../../../AGENTS.md).
-2. Read `.aiwork/session.yaml`, `.aiwork/STUDY_PLAN.md`, `.aiwork/review_tracker.yaml`, `notes/`, and `notes/logs/` as needed.
-3. For default mode, report:
-   - project start date
-   - current stage
-   - completion percentage
-   - stage-by-stage status
-   - study counts and time
-   - note, log, and review counts
-4. For `stats`, compute richer counts from the current repository state rather than relying only on stored summaries.
-5. For `update`, modify the smallest necessary set of fields in `.aiwork/session.yaml` and `.aiwork/STUDY_PLAN.md`.
-6. When marking a stage complete, keep dates, percentages, and stage-history fields synchronized.
-
-## Output Expectations
-
-- For read mode: a concise progress dashboard
-- For update mode: exact fields changed and the new effective status
-- For stats mode: a compact but concrete report with computed counts
-
-## Guardrails
-
-- Only use this skill when directly invoked by name
-- Prefer repository truth over stale cached counters
-- Do not overwrite narrative sections of the study plan unless the workflow specifically updates them
+The linked Claude command is the source of truth. If this adapter and the command ever appear to disagree, follow the command.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "shixiu"
+  short_description: "实修记录、状态对话、生活修对治与回访"
+  default_prompt: "Run $shixiu for this repository."

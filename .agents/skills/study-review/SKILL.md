@@ -1,39 +1,19 @@
 ---
 name: study-review
-description: Use only when the user explicitly invokes `study-review`, `$study-review`, or asks to run the `study-review` workflow for this 《大乘百法明门论》 project. Do not trigger from general semantic similarity. This workflow manages spaced-review queues, due items, and completion updates.
+description: Use only when the user explicitly invokes `study-review`, `$study-review`, or asks to run the `study-review` workflow for this 《大乘百法明门论》 project. Do not trigger from general semantic similarity. Executes every due, upcoming, all, complete, schedule, tracking, and error-handling behavior in the Claude `/study-review` command.
 ---
 
 # Study Review
 
-This is a workflow-style skill for this repository. Treat it as the Codex equivalent of the old `/study-review` command.
+This repository keeps the detailed workflow in one canonical place so the Claude command and Codex skill cannot drift.
 
-## Modes
+## Required execution contract
 
-- Default: show items due today
-- `due`: show all due and overdue items
-- `upcoming`: show upcoming reviews
-- `all`: show the full review plan
-- `complete <id>`: mark one review step complete
-- `schedule`: show a review-calendar style view
+1. Read [`AGENTS.md`](../../../AGENTS.md) completely before taking action.
+2. Read [the canonical Claude command](../../../.claude/commands/study-review.md) completely, from the first line through the end, every time this skill runs.
+3. Execute that command as the binding workflow specification. Preserve all of its modes, parameter validation, questions and their order, calculations, templates, file reads and writes, synchronization rules, confirmations, error handling, examples, and final output requirements.
+4. Do not replace the command with a summary, skip an interaction because this adapter is shorter, or invent behavior that is absent from the command.
+5. Treat `$study-review <arguments>`, `study-review <arguments>`, and the command's `/study-review <arguments>` syntax as the same invocation. Translate only the invocation syntax; keep the workflow's observable behavior and repository changes unchanged.
+6. When the command requires user input that was not supplied, ask for it at the exact point prescribed by the command. When the input is already present in the conversation or repository, reuse it instead of asking again.
 
-## Workflow
-
-1. Read [AGENTS.md](../../../AGENTS.md).
-2. Read `.aiwork/review_tracker.yaml` and related note or log files referenced by each review item.
-3. Interpret dates using the repository timezone and today's actual date.
-4. For read modes, group and sort review items by urgency.
-5. For `complete <id>`, update only the targeted review item and any directly linked counters.
-6. If a linked concept note has a review table and the workflow requires syncing it, append a precise entry without rewriting the rest of the note.
-
-## Output Expectations
-
-- A clear due list with priority, source date, and linked note path when available
-- For completion mode, the item updated and the next remaining review state
-- For schedule mode, a compact date-grouped calendar summary
-
-## Guardrails
-
-- Only use this skill when directly invoked by name
-- Never silently renumber unrelated review items
-- Preserve historical completion records
-- If tracker structure is inconsistent, explain the inconsistency before editing
+The linked Claude command is the source of truth. If this adapter and the command ever appear to disagree, follow the command.

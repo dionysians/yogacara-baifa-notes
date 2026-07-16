@@ -1,0 +1,4 @@
+interface:
+  display_name: "fofa-guanshi"
+  short_description: "以唯识佛法框架讨论并整理佛法观世文章"
+  default_prompt: "Run $fofa-guanshi for this repository."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "concept-card"
+  short_description: "概念卡查重、建卡、链接与索引维护"
+  default_prompt: "Run $concept-card for this repository."
