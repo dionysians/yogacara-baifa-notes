@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-07-17"
+last_updated: "2026-07-19"
 status: "active"
 
 # 项目描述
@@ -25,11 +25,12 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 已完成 47/51：遍行5、别境5、善11、根本烦恼6、随烦恼20；烦恼总阶段于2026-07-17收官，现进入不定心所四法（悔、眠、寻、伺），下一步为悔"
+  current_phase: "阶段三：心所法（51法）— 已完成48/51：遍行5、别境5、善11、根本烦恼6、随烦恼20、不定1；悔已完成，下一步为眠"
   current_stage_start_date: "2026-03-05"
-  stage_3_completion: 92
-  completion_percentage: 55
-  last_updated: "2026-07-17"
+  stage_3_completion: 94
+  completion_percentage: 56
+  last_study_date: "2026-07-19"
+  last_updated: "2026-07-19"
 
 # 学习方法
 study_methods:
@@ -40,10 +41,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 41
-  total_hours: 110.33
-  last_session_date: "2026-07-15"
-  last_session_content: "散乱（大随 19/20，90分钟；两刀+一变体〔行相统一式〕·C 型=定的矛盾项 + 边界辨异四象限〔流荡与行相丰富〕+ 六散乱分形 + 见自附庸型双通道〔贪推/懈怠撤〕+ 窗口公式）。详见 STUDY_PLAN + notes/logs/。"
+  total_sessions: 42
+  total_hours: 111.33
+  last_session_date: "2026-07-19"
+  last_session_content: "不定心所·悔（48/51，60分钟）：体性与别有体、善染分诊、刹那相应及忏悔接口；详见 STUDY_PLAN + notes/logs/。"
 
 # 相关文档
 documents:
@@ -82,9 +83,9 @@ stage_history:
     start_date: "2026-03-05"
     end_date: null
     status: "in_progress"
-    progress: 92
-    last_update: "2026-07-17"
-    update_note: "心所法已完成47/51：遍行5、别境5、善11、根本烦恼6、随烦恼20。烦恼总阶段已完成综述、检查点评估与画像同步；现切换至不定心所四法，下一步为悔。"
+    progress: 94
+    last_update: "2026-07-19"
+    update_note: "心所法已完成48/51；不定心所第一法悔已闭合，现进入眠。详见 STUDY_PLAN + notes/logs/。"
   - stage_number: 4
     stage_name: "色法（11法）"
     start_date: null

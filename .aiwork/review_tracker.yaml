@@ -1643,8 +1643,28 @@ reviews:
         completed: false
         completion_date: null
 
+  - date: "2026-07-19"
+    content: "不定心所第一法·悔完整学习：体性与别有体、善染分诊、心所相应及忏悔接口"
+    concepts: ["悔", "恶作", "怅怏追变", "别有体", "障止", "善悔", "染悔", "同一事件与同一刹那", "心所相应", "惭愧", "四力忏悔", "不悔"]
+    review_schedule:
+      - day: 1
+        due_date: "2026-07-20"
+        completed: false
+      - day: 2
+        due_date: "2026-07-21"
+        completed: false
+      - day: 4
+        due_date: "2026-07-23"
+        completed: false
+      - day: 7
+        due_date: "2026-07-26"
+        completed: false
+      - day: 15
+        due_date: "2026-08-03"
+        completed: false
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 185
+  total_reviews_scheduled: 190
   total_reviews_completed: 1
-  last_updated: "2026-07-15"
+  last_updated: "2026-07-19"

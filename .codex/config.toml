@@ -1,0 +1,2 @@
+# AGENTS.md 当前约 58 KB。提高项目说明加载上限，确保新任务启动时注入全文。
+project_doc_max_bytes = 131072
