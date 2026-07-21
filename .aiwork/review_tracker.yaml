@@ -1663,8 +1663,28 @@ reviews:
         due_date: "2026-08-03"
         completed: false
 
+  - date: "2026-07-20"
+    content: "不定心所第二法·眠完整学习：体性与位次、三性睡眠盖、辨异、身体修复及觉寤瑜伽"
+    concepts: ["眠", "身不自在", "昧略", "一门转", "有心睡眠", "无心睡眠", "别有体", "三性", "睡眠盖", "障观", "长养身体", "觉寤瑜伽", "惛沉", "失念", "睡眠趋向"]
+    review_schedule:
+      - day: 1
+        due_date: "2026-07-21"
+        completed: false
+      - day: 2
+        due_date: "2026-07-22"
+        completed: false
+      - day: 4
+        due_date: "2026-07-24"
+        completed: false
+      - day: 7
+        due_date: "2026-07-27"
+        completed: false
+      - day: 15
+        due_date: "2026-08-04"
+        completed: false
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 190
+  total_reviews_scheduled: 195
   total_reviews_completed: 1
-  last_updated: "2026-07-19"
+  last_updated: "2026-07-20"
