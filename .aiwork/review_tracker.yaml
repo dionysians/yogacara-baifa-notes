@@ -1683,8 +1683,28 @@ reviews:
         due_date: "2026-08-04"
         completed: false
 
+  - date: "2026-07-23"
+    content: "不定心所第三法·寻完整学习：意言境粗转、思慧假立、善染安住双轴、识位与三地"
+    concepts: ["寻", "意言境", "匆遽", "粗转", "不深推度", "思慧一分", "假有", "伺", "散乱", "三性", "安住与不安住", "发起语言", "第六意识", "寻伺刹那不俱", "复合总境", "有寻有伺地", "无寻唯伺地", "无寻无伺地"]
+    review_schedule:
+      - day: 1
+        due_date: "2026-07-24"
+        completed: false
+      - day: 2
+        due_date: "2026-07-25"
+        completed: false
+      - day: 4
+        due_date: "2026-07-27"
+        completed: false
+      - day: 7
+        due_date: "2026-07-30"
+        completed: false
+      - day: 15
+        due_date: "2026-08-07"
+        completed: false
+
 # 统计信息
 statistics:
-  total_reviews_scheduled: 195
+  total_reviews_scheduled: 200
   total_reviews_completed: 1
-  last_updated: "2026-07-20"
+  last_updated: "2026-07-23"

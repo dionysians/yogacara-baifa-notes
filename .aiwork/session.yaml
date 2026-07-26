@@ -2,7 +2,7 @@ session_id: "study-百法明门论-20251103"
 type: "learning"
 name: "大乘百法明门论学习"
 created: "2025-11-03"
-last_updated: "2026-07-20"
+last_updated: "2026-07-23"
 status: "active"
 
 # 项目描述
@@ -25,12 +25,12 @@ resources:
 progress:
   started_date: "2025-11-03"
   target_completion: null
-  current_phase: "阶段三：心所法（51法）— 已完成49/51：遍行5、别境5、善11、根本烦恼6、随烦恼20、不定2；悔、眠已完成，下一步为寻"
+  current_phase: "阶段三：心所法（51法）— 已完成50/51：遍行5、别境5、善11、根本烦恼6、随烦恼20、不定3；悔、眠、寻已完成，下一步为伺"
   current_stage_start_date: "2026-03-05"
-  stage_3_completion: 96
-  completion_percentage: 57
-  last_study_date: "2026-07-20"
-  last_updated: "2026-07-20"
+  stage_3_completion: 98
+  completion_percentage: 58
+  last_study_date: "2026-07-23"
+  last_updated: "2026-07-23"
 
 # 学习方法
 study_methods:
@@ -41,10 +41,10 @@ study_methods:
 
 # 学习记录
 study_log:
-  total_sessions: 43
-  total_hours: 112.83
-  last_session_date: "2026-07-20"
-  last_session_content: "不定心所·眠（49/51，90分钟）：体性与位次、三性睡眠盖、辨异、身体修复及觉寤瑜伽；详见 STUDY_PLAN + notes/logs/。"
+  total_sessions: 44
+  total_hours: 113.83
+  last_session_date: "2026-07-23"
+  last_session_content: "不定心所·寻（50/51，60分钟）：意言境粗转、思慧假立、善染安住双轴、识位与三地；详见 STUDY_PLAN + notes/logs/。"
 
 # 相关文档
 documents:
@@ -83,9 +83,9 @@ stage_history:
     start_date: "2026-03-05"
     end_date: null
     status: "in_progress"
-    progress: 96
-    last_update: "2026-07-20"
-    update_note: "心所法已完成49/51；不定心所悔、眠已闭合，现进入寻。详见 STUDY_PLAN + notes/logs/。"
+    progress: 98
+    last_update: "2026-07-23"
+    update_note: "心所法已完成50/51；不定心所悔、眠、寻已闭合，现进入伺。详见 STUDY_PLAN + notes/logs/。"
   - stage_number: 4
     stage_name: "色法（11法）"
     start_date: null
